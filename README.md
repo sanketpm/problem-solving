@@ -191,6 +191,8 @@ I have linked the solutions to the problems I've solved.
 32. [Invert a BTree](./other/tree/invert-btree.md)
 33. [Merge two BTree](./other/tree/merge-two-btree.md)
 34. [Sorted Array to Balanced BTree](./other/tree/sorted-balancedBtree.md)
+35. [Triangle min path sum](./other/tree/triangle.md)
+36. [Valid BTree](./other/tree/valid-btree.md)
 
 ## To Do:
 1. add examples to `Balanced Btree` - why every node should be balanced
