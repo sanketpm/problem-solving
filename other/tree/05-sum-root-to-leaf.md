@@ -1,12 +1,14 @@
-
-
-<details>
-  <summary>[Leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)</summary>
+## Links
+[Leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+[GFG](https://practice.geeksforgeeks.org/problems/maximum-sum-leaf-to-root-path/1?)
 
 ## Expected Output
-See description
 
-## Approach
+### Brute Force
+**Approach**:
+
+
+**code**:
 ```
 class Solution {
 
@@ -35,16 +37,27 @@ class Solution {
     }
 }
 ```
-</details>
 
-<details>
-  <summary>[GFG](https://practice.geeksforgeeks.org/problems/maximum-sum-leaf-to-root-path/1?)</summary>
+## Python 
 
-## Expected Output
-See description
-
-## Approach
+**code**:
 ```
+class Solution:
+    def sumNumbers(self, root: Optional[TreeNode]) -> int:
 
+        def dfs(cur, sum):
+            if not cur:
+                return 0
+            
+            sum = sum * 10 + cur.val
+
+            if not cur.left and not cur.right:
+                return sum
+            
+            left = dfs(cur.left, sum)
+            right = dfs(cur.right, sum)
+
+            return left + right
+            
+        return dfs(root, 0)
 ```
-</details>
