@@ -1,12 +1,12 @@
 ## Links
-[Leetcode]()
+[Leetcode](https://leetcode.com/problems/container-with-most-water)
 
 ## Expected Output
 
 
 ## Approach
 
-
+![image](../../images/container-with-most-water.png)
 ### Brute Force
 1. Outer loop - left stick
 2. Inner loop - right stick
