@@ -85,3 +85,35 @@ class Solution{
     }
 }
 ```
+
+## Python
+**Iterative:**
+
+```
+class Solution:
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        if not root:
+            return []
+        
+        res = []
+
+        que = collections.deque()
+        que.append(root)
+
+        while que:
+            size = len(que)
+
+            for i in range(size):
+                node = que.popleft()
+
+                if i == 0:
+                    res.append(node.val)
+
+                if node.right:
+                    que.append(node.right)
+
+                if node.left:
+                    que.append(node.left)
+        
+        return res
+```
