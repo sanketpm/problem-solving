@@ -58,18 +58,18 @@ class Solution:
 ```
 class Solution:
     def numTrees(self, n: int) -> int:
-        dp = [0] * (n + 1)
-        dp[0] = 1
-        dp[1] = 1
-        
-        for nodes in range(1, n + 1):
-            res = 0
-            for i in range(1, nodes + 1):
-                left = dp[i - 1]
-                right = dp[nodes - i] 
-                res += (left * right)
+        dp = [0] * (n + 1) 
 
-            dp[nodes] = res
+        dp[0] = 1
+
+        for i in range(1, n + 1):
+            res = 0
+            for j in range(i):
+                left = dp[j]
+                right = dp[i - 1 - j]
+                res += (left * right)
+            
+            dp[i] = res
         
         return dp[n]
 ```
