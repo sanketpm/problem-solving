@@ -193,6 +193,7 @@ I have linked the solutions to the problems I've solved.
 34. [Sorted Array to Balanced BTree](./other/tree/sorted-balancedBtree.md)
 35. [Triangle min path sum](./other/tree/triangle.md)
 36. [Valid BTree](./other/tree/valid-btree.md)
+37. [House Robber III](./other/tree/house-robber-iii.md)
 
 ## To Do:
 1. add examples to `Balanced Btree` - why every node should be balanced
