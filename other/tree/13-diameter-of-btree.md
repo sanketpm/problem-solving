@@ -37,3 +37,27 @@ class Solution {
     }
 
 ```
+
+## Python
+
+```
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        dia = 0  
+
+        def dfs(node):
+            nonlocal dia
+            if not node:
+                return 0
+            
+            left = dfs(node.left)
+            right = dfs(node.right)
+
+            dia = max(dia, left + right)
+
+            return 1 + max(left, right)
+
+        dfs(root)
+
+        return dia
+```
