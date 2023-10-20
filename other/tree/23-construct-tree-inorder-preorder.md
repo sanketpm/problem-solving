@@ -13,21 +13,6 @@
 
 **Approach**
 ```
- /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
 
     private TreeNode buildTree(int[] pos, int pStart, int pEnd, 
@@ -61,4 +46,22 @@ class Solution {
         return buildTree(postorder, 0, n - 1, inorder, 0, n - 1, iMap);
     }
 }
+```
+
+## Python
+
+```
+class Solution:
+    def buildTree(self, pre: List[int], ino: List[int]) -> Optional[TreeNode]:
+        if not pre or not ino:
+            return None
+        
+        root = TreeNode(pre[0])
+
+        nLst = ino.index(pre[0])
+
+        root.left = self.buildTree(pre[1 : nLst + 1], ino[:nLst])
+        root.right = self.buildTree(pre[(nLst + 1):], ino[(nLst + 1):])
+
+        return root
 ```
