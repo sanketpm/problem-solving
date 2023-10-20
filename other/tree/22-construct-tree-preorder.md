@@ -38,3 +38,27 @@ class Solution {
     }
 }
 ```
+
+## Python
+
+```
+class Solution:
+    def bstFromPreorder(self, pre: List[int]) -> Optional[TreeNode]:
+        n = len(pre)
+        i = 0
+
+        def dfs(ub):
+            nonlocal i
+            if i == n or pre[i] > ub:
+                return None
+
+            root = TreeNode(pre[i])
+            i += 1
+
+            root.left = dfs(root.val)
+            root.right = dfs(ub)
+
+            return root
+        
+        return dfs(float('inf'))
+```
