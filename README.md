@@ -180,7 +180,7 @@ I have linked the solutions to the problems I've solved.
 21. [Max Path sum](./other/tree/21-max-path-sum.md)
 22. [Construct a binary tree from preorder](./other/tree/22-construct-tree-preorder.md)
 23. [Construct a binary tree from inorder and preorder](./other/tree/23-construct-tree-inorder-preorder.md)
-24. [Are two tree identical](./other/tree/24-are-two-tree-identical.md)
+24. [Same Tree](./other/tree/same-tree.md)
 25. [Is the BTree Symmetric](./other/tree/25-is-tree-symmetric.md)
 26. [Least common ancestor - Binary Tree](./other/tree/26-lca.md)
 27. [Least common ancestor - Binary Search Tree](./other/tree/27-lca-bst.md)
