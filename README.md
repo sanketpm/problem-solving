@@ -207,6 +207,13 @@ I have linked the solutions to the problems I've solved.
 </details>
 
 <details>
+  <summary>Trie</summary>
+
+1. [Build a Trie](./other/trie/implement-trie.md)
+
+</details>
+
+<details>
   <summary>Dynamic Programming</summary>
 
 **Patterns**
