@@ -26,6 +26,12 @@ Implement the Trie class:
 
 ### Approach
 
+**Complexity:**
+|Operation |Time Complexity | Space Complexity|
+|----------|----------------|-----------------|
+| Insert   | O(n)           | O(n)            |
+| Search   | O(n)           | O(1)            |
+
 **code**:
 ```
 class TrieNode:
