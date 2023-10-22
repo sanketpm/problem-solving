@@ -82,35 +82,36 @@ public class Codec {
 **code**
 ```
 class Codec:
-
     def serialize(self, root):
         res = []
 
         def dfs(node):
-            if not node:
-                res.append('N')
+            if node is None:
+                res.append('#')
                 return
             
             res.append(str(node.val))
-            
+
             dfs(node.left)
             dfs(node.right)
         
         dfs(root)
-        
-        ser = ",".join(res)
-        return ser 
-        
+
+        ser = ','.join(res)
+        return ser
 
     def deserialize(self, data):
-        nodes = collections.deque(data.split(','))
-        
+        nodes = data.split(',')
+        i = 0
+
         def dfs():
-            nodeval = nodes.popleft()
-            if nodeval == 'N':
+            nonlocal i
+            if nodes[i] == '#':
+                i += 1
                 return None
 
-            node = TreeNode(int(nodeval)) 
+            node = TreeNode(int(nodes[i]))
+            i += 1
 
             node.left = dfs()
             node.right = dfs()
@@ -118,9 +119,4 @@ class Codec:
             return node
         
         return dfs()
-
-# Your Codec object will be instantiated and called as such:
-# ser = Codec()
-# deser = Codec()
-# ans = deser.deserialize(ser.serialize(root))
 ```
