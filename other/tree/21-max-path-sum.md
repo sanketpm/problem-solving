@@ -12,33 +12,30 @@ See description
 
 >LST: Left subtree, RST: Right subtree
 
-**Approach**
-
-**Solution1:**
+**code 1**
 ```
 class Solution:
-    def maxpathsum(self, root: Optional[TreeNode], res: List[int]) -> int:
-        if not root:
-            return 0
-        
-        l = self.maxpathsum(root.left, res) 
-        r = self.maxpathsum(root.right, res)
-        
-        curr = root.val + l + r
-
-        res[0] = max(res[0], root.val, curr, root.val + l, root.val + r)
-
-        return max(root.val, root.val + l, root.val + r)  
-
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
-        res = [-float('inf')] 
+        res = float('-inf')
 
-        self.maxpathsum(root, res)
+        def dfs(root):
+            nonlocal res
+            if not root:
+                return 0
 
-        return res[0]
+            left = max(dfs(root.left), 0)
+            right = max(dfs(root.right), 0)
+
+            res = max(res, root.val + left + right)
+
+            return root.val + max(left, right)
+        
+        dfs(root)
+
+        return res
 ```
 
-**solution2**:
+**Code 2**:
 ```
 class Solution {
     private int max = Integer.MIN_VALUE;
@@ -54,19 +51,11 @@ class Solution {
         leftsum = Math.max(leftsum, 0);
         rightsum = Math.max(rightsum, 0);
 
-        int currsum = leftsum + rightsum + root.val;
-
-        if( max < currsum ) {
-            max = currsum;
-        }
+        max = Math.max(max, leftsum + rightsum + root.val);
 
         return root.val + Math.max(leftsum, rightsum);
     }
     public int maxPathSum(TreeNode root) {
-        if(root == null) {
-            return 0;
-        }
-
         maxpathsum(root);
 
         return max;
