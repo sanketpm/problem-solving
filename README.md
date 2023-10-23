@@ -31,6 +31,7 @@ I have linked the solutions to the problems I've solved.
 23. [Product of array except self](./other/array/product-except-self.md)
 24. [Maximum product subarray](./other/array/max-prod-subarray.md)
 25. [Missing Number](./other/array/missing-number.md)
+25. [Contains Duplicate](./other/array/contains-duplicate.md)
 
 **TODO:**
 1. Transpose of matrix
