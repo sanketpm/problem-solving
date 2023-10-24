@@ -45,3 +45,35 @@ class Solution {
     }
 }
 ```
+
+## Python
+
+```
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        N = len(nums)
+        
+        res = []
+        vis = set()
+        lst = collections.deque()
+
+        def dfs():
+            if len(lst) == N and lst not in res:
+                res.append(lst.copy())
+                return
+            
+            for i in range(N):
+                if i in vis:
+                    continue
+                
+                vis.add(i) 
+                lst.append(nums[i])
+                dfs()
+
+                lst.pop()
+                vis.remove(i)
+            
+        dfs()
+
+        return res
+```

@@ -87,3 +87,42 @@ class Solution {
     }
 }
 ```
+
+
+## Python
+
+**Approach: Using visited set**
+```
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        N = len(nums)
+
+        res = []
+        vis = set()
+        sub = collections.deque()
+
+        def dfs():
+            if len(sub) == N:
+                res.append(sub.copy())
+                return
+            
+            for i in range(N):
+                if i in vis:
+                    continue
+
+                vis.add(i)
+                sub.append(nums[i])
+                
+                dfs()
+
+                sub.pop()
+                vis.remove(i)
+
+        dfs()
+
+        return res
+```
+
+**Approach: Using Swap**
+```
+```
