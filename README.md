@@ -211,6 +211,7 @@ I have linked the solutions to the problems I've solved.
   <summary>Trie</summary>
 
 1. [Build a Trie](./other/trie/implement-trie.md)
+2. [Design Add & Search Words](./other/trie/add-search-words.md)
 
 </details>
 
