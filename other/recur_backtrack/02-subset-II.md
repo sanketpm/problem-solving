@@ -43,3 +43,28 @@ class Solution {
     }
 }
 ```
+
+## Python
+
+```
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        N = len(nums)
+        res = []
+        nums.sort()
+
+        def dfs(start, sub):
+            res.append(sub.copy())
+
+            for i in range(start, N):
+                if i > start and nums[i] == nums[i - 1]:
+                    continue
+                
+                sub.append(nums[i])
+                dfs(i + 1, sub)
+                sub.remove(nums[i])
+        
+        dfs(0, [])
+
+        return res
+```

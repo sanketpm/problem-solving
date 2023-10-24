@@ -40,3 +40,24 @@ class Solution {
     }
 }
 ```
+
+## Python
+
+```
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        N = len(nums)
+
+        def dfs(start, sub):
+            res.append(sub.copy())
+
+            for i in range(start, N):
+                sub.append(nums[i])
+                dfs(i + 1, sub)
+                sub.remove(nums[i])
+        
+        dfs(0, [])
+
+        return res
+```
