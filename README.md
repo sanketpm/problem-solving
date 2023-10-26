@@ -196,6 +196,8 @@ I have linked the solutions to the problems I've solved.
 36. [Valid BTree](./other/tree/valid-btree.md)
 37. [House Robber III](./other/tree/house-robber-iii.md)
 38. [Bottom Left Tree Value](./other/tree/bottom-left.md)
+39. [Trim BST](./other/tree/trim-bst.md)
+
 ## To Do:
 1. add examples to `Balanced Btree` - why every node should be balanced
 2. Good Node example, which node is good node & how is it a good node
