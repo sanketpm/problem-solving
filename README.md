@@ -197,6 +197,8 @@ I have linked the solutions to the problems I've solved.
 37. [House Robber III](./other/tree/house-robber-iii.md)
 38. [Bottom Left Tree Value](./other/tree/bottom-left.md)
 39. [Trim BST](./other/tree/trim-bst.md)
+40. [Has Path Sum](./other/tree/has-path-sum.md)
+41. [BST Iterator](./other/tree/bst-iterator.md)
 
 ## To Do:
 1. add examples to `Balanced Btree` - why every node should be balanced
