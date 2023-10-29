@@ -158,6 +158,8 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Tree</summary>
 
+[Leetcode Tree Constructor](./other/tree/tree-constructor.md)
+
 1. [InOrder Traversal- Recursive & Iterative](./other/tree/01-in-order.md)
 2. [Preorder Traversal - Recursive & Iterative](./other/tree/02-pre-order.md)
 3. [Postorder Traversal - Recursive & Iterative](./other/tree/03-post-order.md)
