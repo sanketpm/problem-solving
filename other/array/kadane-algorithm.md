@@ -13,6 +13,12 @@ Maximum sum of a contiguous subarray
 
 > NOTE: Reset sum = 0 before every executing of inner loop
 
+**Dry run**
+```
+arr = [4, -1, 2, -7, 3, 4]
+```
+
+
 **code**
 ```
 public static long maxSubarraySum(int[] arr, int n) {
