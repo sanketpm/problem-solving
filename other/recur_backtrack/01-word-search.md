@@ -49,5 +49,27 @@ class Solution:
 
 **Questions:**
 1. What happens if you don't remove element from set `vis.remove((r,c))`?
+- DFS path of each cell is unique
+- You set retains the visited of previous cell's DFS, then the current cell can never product the correct result
+e.g.:
+```
+board: 
+[
+    [a, b, c]
+    [a, d, e]
+]
+
+word: a a b
+
+
+DFS Path of [0][0]: a b c e, a b d e
+> a b c e d all are marked visited
+
+DFS Path of [0][1]: all other cells are marked visited therefore you'll explore the path `a -> a -> b` & return `False`
+```
+
 2. What happends if you remove outOfRange?
+- List index out of range error
+
 3. Why do you need to check if an element is already visited?
+- To avoid infinite loop
