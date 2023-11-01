@@ -57,6 +57,7 @@ I have linked the solutions to the problems I've solved.
 4. [Count Palindromic substrings](./other/array/cnt-palindromic-subtr.md)
 5. [Convert Roman to Integer](./other/array/roman-to-int.md)
 6. [Convert Integer to Roman](./other/array/int-to-roman.md)
+7. [Group Anagrams](./other/array/group.anagrams.md)
 
 </details>
 
