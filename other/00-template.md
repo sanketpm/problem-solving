@@ -9,9 +9,10 @@
 **Approach**:
 
 **Time Complexity:** 
-    - `O(N)`, Where N is ..
-**Auxiliary Space:** 
-    - `O(N)`, due to ...
+- `O(N)`, Where N is ..\
+
+**Auxiliary Space:**
+- `O(N)`, due to ...
 
 **code**:
 ```
