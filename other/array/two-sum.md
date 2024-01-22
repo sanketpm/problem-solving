@@ -58,6 +58,41 @@ class Solution {
 }
 ```
 
+## Python
+
+### Brute Force
+
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        n = len(nums)
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                if arr[i] + arr[j] == target:
+                    return [i, j]
+        
+        return [-1, -1]
+```
+
+### Optimised
+
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        map = {}
+
+        for i in range(len(nums)):
+            diff = target - nums[i]
+
+            if diff in map:
+                return [i, map[diff]]
+            
+            map[nums[i]] = i
+        
+        return [-1, -1]
+```
+
 **mistakes**
 1. forgot to put the `element : index`
 ```
