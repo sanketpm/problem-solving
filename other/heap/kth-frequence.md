@@ -55,59 +55,44 @@ class Solution {
 
 ### Python
 
-**Fails-1**:
-
-```
-from collections import Counter
-import heapq
-
-class Solution:
-    def topKFrequent(self, nums: list[int], k: int):
-        freq_map = Counter(nums)
-
-        q = [] 
-
-        for key in freq_map.keys():
-            q.append((key, freq_map[key]))
-
-        heapq.heapify(q)
-
-        res = []
-
-        for i in range(k):
-            res.append(heapq.heappop(q)[0])
-
-        return res
-
-
-# nums = [1, 1, 1, 2, 2, 3]
-nums = [4,1,-1,2,-1,2,3]
-print(Solution().topKFrequent(nums, 2))
-```
-
-1. Heapify - based on indexed value not frequency, therefore -1, 1 will appeart at the top, irrespective of the freq. value
-
-**Passes 1**
-T = O(N * logN) 
-S = 
+**Heap Solution**
+T = O(n * logn) (n elements into min-heap * popping k elements from heap (logn) )
+S = O(N)
 
 ```
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        freq_map = defaultdict(lambda: 0)
-        hp = [] 
-        res = []
+        count = collections.Counter(nums)
 
-        for num in nums:
-            freq_map[num] += 1
+        heap = [ (freq, num) for (num, freq) in count.items() ]
+        heapq.heapify(heap)
 
-        for key in freq_map.keys():
-            hp.append((freq_map[key] * -1, key))
+        while len(heap) > k:
+            heapq.heappop(heap)
+        
+        return [num for (freq, num) in heap]
+```
 
-        heapq.heapify(hp)
+Note: If you use Max-Heap the Time complexity improves to `O(k*logk) `
 
-        for i in range(k):
-            res.append(heapq.heappop(hp)[1])
+**Bucket Sort Modified**
+T = O(N)
+S = O(N)
+```
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        freq = [[] for _ in range(len(nums) + 1)]
+        count = collections.Counter(nums)
 
-        return res
+        for (num, fre) in count.items():
+            freq[fre].append(num)
+
+        res = [] 
+        for i in range(len(freq) - 1, 0, -1):
+            for num in freq[i]:
+                res.append(num)
+                if len(res) == k:
+                    return res
+        
+        return []
 ```
