@@ -3,12 +3,6 @@
 
 ## Expected Output
 
-### Brute Force
-**code**:
-```
-
-```
-
 ### Optimized
 **Approach**
 
