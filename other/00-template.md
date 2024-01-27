@@ -6,13 +6,12 @@
 ## Expected Output
 
 ### Brute Force
-**Approach**:
 
-**Time Complexity:** 
-- `O(N)`, Where N is ..\
+**Approach**
 
-**Auxiliary Space:**
-- `O(N)`, due to ...
+**Efficiency**:
+- Time: `O(N)`, Where N is .
+- Space: `O(N)`, Where N is
 
 **code**:
 ```
@@ -22,10 +21,9 @@
 ### Optimized
 **Approach**
 
-**Time Complexity:** 
-    - `O(N)`, Where N is ..
-**Auxiliary Space:** 
-    - `O(N)`, due to ...
+**Efficiency**:
+- Time: `O(N)`, Where N is .
+- Space: `O(N)`, Where N is
 
 **code**:
 ```
