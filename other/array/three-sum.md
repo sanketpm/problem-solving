@@ -124,3 +124,46 @@ class Solution {
     }
 }
 ```
+
+
+## Python
+
+### Brute Force
+```
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        n = len(nums)
+        res = set()
+
+        for i in range(n - 2):
+            for j in range(i + 1, n - 1):
+                for k in range(j + 1, n):
+                    if nums[i] + nums[j] + nums[k] == 0:
+                        res.add(tuple(sorted([nums[i], nums[j], nums[k]])))
+        
+        return [list(val) for val in res]
+```
+
+### Optimised
+- Additive Inverse 
+
+```
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        triplets = set()
+        inverse = set()
+        n = len(nums)
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                sum = -(nums[i] + nums[j])
+
+                if sum in inverse:
+                    res = sorted([nums[i], nums[j], sum])
+                    triplets.add(tuple(res))
+
+                inverse.add(nums[j])
+            inverse.clear()
+        
+        return [list(val) for val in triplets]
+```
