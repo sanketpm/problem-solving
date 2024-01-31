@@ -6,58 +6,105 @@ I have linked the solutions to the problems I've solved.
   <summary>Array</summary>
 
 **Array**
-1. [Remove duplicates from sorted array](./other/array/logicmojo/01-remove-duplicates.md)
-2. [Search insert position](./other/array/02-search-insert-position.md)
-3. [Fibonacci series](./other/array/03-fibinacci-series.md)
-4. [Majority element](./other/array/14-majority-element.md)
-5. [Sort an array of 0, 1, 2](./other/array/15-sort-0-1-2-array.md)
-6. [First missing positive](./other/array/15-first-missing-positive.md)
-7. [Spiral matrix](./other/array/18-spiral-matrix.md)
-8. [Find the smallest and second smallest element in an array](./other/array/21-smallest-2nSmallest.md)
-9. [Sort 0s 1s 2s](./other/array/15-sort-0-1-2-array.md)
-10. [Kadane algorithm](./other/array/kadane-algorithm.md)
-11. [Majority element ( > n/2 times )](./other/array/majority-element-by2.md)
-12. [Majority element ( > n/3 times ) ](./other/array/majority-element-by3.md)
-13. [Two sum](./other/array/two-sum.md)
-14. [Two sum ii](./other/array/two-sum-ii.md)
-15. [Rain water tapping](./other/array/rain-water-tapping.md)
-16. [Three sum](./other/array/three-sum.md)
-17. [Container with most water](./other/array/container-most-water.md)
-18. [Search min in rotated sorted array](./other/array/search-min-rot-sort.md)
-19. [Search in rotated sorted array](./other/array/search-rotated-sort-array.md)
-20. [Search in rotated sorted array - ii](./other/array/search-rotated-sort-array-2.md)
-21. [Merge two overlapping intervals](./other/array/merge-two-overlapping-intervals.md)
-22. [Valid parenthesis](./other/array/valid-parenthesis.md)
-23. [Product of array except self](./other/array/product-except-self.md)
-24. [Maximum product subarray](./other/array/max-prod-subarray.md)
-25. [Missing Number](./other/array/missing-number.md)
-25. [Contains Duplicate](./other/array/contains-duplicate.md)
+- [ ] [Remove duplicates from sorted array](./other/array/logicmojo/01-remove-duplicates.md)
+- [ ] [Search insert position](./other/array/02-search-insert-position.md)
+- [ ] [Fibonacci series](./other/array/03-fibinacci-series.md)
+- [ ] [Spiral matrix](./other/array/18-spiral-matrix.md)
+
+- [ ] [Find the smallest and second smallest element in an array](./other/array/21-smallest-2nSmallest.md)
+- [ ] [First missing positive](./other/array/15-first-missing-positive.md)
+- [ ] [Sort 0s 1s 2s](./other/array/15-sort-0-1-2-array.md)
+
+- [ ] [Kadane algorithm](./other/array/kadane-algorithm.md)
+- [ ] [Majority element ( > n/2 times )](./other/array/majority-element-by2.md)
+- [ ] [Majority element ( > n/3 times ) ](./other/array/majority-element-by3.md)
+
+- [ ] [Two sum](./other/array/two-sum.md)
+- [ ] [Two sum ii](./other/array/two-sum-ii.md)
+- [ ] [Three sum](./other/array/three-sum.md)
+
+- [ ] [Rain water tapping](./other/array/rain-water-tapping.md)
+- [ ] [Product of array except self](./other/array/product-except-self.md)
+
+- [ ] [Search min in rotated sorted array](./other/array/search-min-rot-sort.md)
+- [ ] [Search in rotated sorted array](./other/array/search-rotated-sort-array.md)
+- [ ] [Search in rotated sorted array - ii](./other/array/search-rotated-sort-array-2.md)
+
+- [ ] [Contains Duplicate](./other/array/contains-duplicate.md)
+- [ ] [Container with most water](./other/array/container-most-water.md)
+- [ ] [Maximum product subarray](./other/array/max-prod-subarray.md)
+
+- [ ] [Merge two overlapping intervals](./other/array/merge-two-overlapping-intervals.md)
+- [ ] [Valid parenthesis](./other/array/valid-parenthesis.md)
+- [ ] [Missing Number](./other/array/missing-number.md)
+- [ ] [Valid Sudoku](./other/array/valid-sudoku.md)
+- [ ] [Valid Palindrome](./other/array/valid-palindrome.md)
+- [ ] [Set Matrix Zeros](./other/array/set-matrix-zeros.md)
+- [ ] [Longest Consecutive Sequence](./other/array/longest-consecutive-seq.md)
+
+- [ ] [Next Permutation](./other/array/next-permutation.md)
+
+- [ ] [Count Palindromic substrings](./other/array/cnt-palindromic-subtr.md)
+- [ ] [Convert Roman to Integer](./other/array/roman-to-int.md)
+- [ ] [Convert Integer to Roman](./other/array/int-to-roman.md)
+
 
 **TODO:**
 1. Transpose of matrix
 2. Rotate Image
 3. Maximum Value in increasing - decreasing array
 4. Jump Game problem
-5. Find next greatest # with same set of digits
 6. Count frequencies of array elements
 7. Matrix Rotation in place
 8. Celebrity Problem
-9. Next Smallest palindrome
 10. Quicksort implementation - Kth smallest
 11. Median of two sorted array
-12. Next Greater Element***
-14. Maximum of all subarrays of size K 
-15. Minimum in Rotated Sorted Array
+12. Maximum of all subarrays of size K 
 
 
-**String**
-1. [Minimum Window Substring](./other/array/min-window-substring.md)
-2. [Longest substring without repeating characters](./other/array/longest-substr-wo-repeat.md)
-3. [Longest Repeating Character Replacement]()
-4. [Count Palindromic substrings](./other/array/cnt-palindromic-subtr.md)
-5. [Convert Roman to Integer](./other/array/roman-to-int.md)
-6. [Convert Integer to Roman](./other/array/int-to-roman.md)
-7. [Group Anagrams](./other/array/group.anagrams.md)
+**Sliding Window: Fixed**
+
+**Sliding Window: Variable**
+- [ ] [Minimum Window Substring](./other/array/min-window-substring.md)
+- [ ] [Longest substring without repeating characters](./other/array/longest-substr-wo-repeat.md)
+- [ ] [Longest Repeating Character Replacement](./other/array/longest-repeatn-char-replacement.md)
+- [ ] [Group Anagrams](./other/array/group.anagrams.md)
+
+- [ ] [Longest subarray with sum k](./other/map/longest-subarray-sum-k.md)
+- [ ] [Count of subarrays with sum k](./other/map/count-subarray-sum-k.md)
+
+
+- [ ] [Maximum sum of distinct subarrays with size k](./other/array/max-sum-distinct-subarray-size-k.md)
+
+</details>
+
+<details>
+  <summary>Stack & Queue</summary>
+
+1. [NGL - Next Greatest Left](./other/stack/ngr.md)
+2. [NGR - Next Greatest Right]()
+3. [NSL - Next Smallest Left](./other/stack/nsl.md)
+4. [NSR - Next Smallest Right]()
+5. [Stock Span](./other/stack/stock-span.md)
+6. [Max area Histogram](./other/stack/max-area-histogram.md)
+7. [Min element in the stack]()
+
+</details>
+
+
+
+
+<details>
+  <summary>Heap</summary>
+
+1. [kth Largest element](./other/heap/kth-largest.md)
+2. [Return K largest elements](./other/heap/kth-largest-elements-list.md)
+3. [K Most frequenct elements](./other/heap/kth-frequence.md)
+4. [Closest Points to origin](./other/heap/closest-to-origin.md)
+5. [Frequency Sort](.other/heap/frequency-sort.md)
+
+**To do**
+1. [K closest elements]()
 
 </details>
 
@@ -100,34 +147,6 @@ I have linked the solutions to the problems I've solved.
 13. [Reverse a linked list in k-groups](./other/list/13-reverse-nodes-in-k.md)
 14. [Rotate a LinkedList](./other/list/14-rotate-list-k.md)
 15. [Add two number](./other/list/15-add-two-numbers.md)
-</details>
-
-<details>
-  <summary>Stack & Queue</summary>
-
-</details>
-
-
-<details>
-  <summary>Map</summary>
-
-1. [Longest subarray with sum k](./other/map/longest-subarray-sum-k.md)
-2. [Count of subarrays with sum k](./other/map/count-subarray-sum-k.md)
-
-</details>
-
-<details>
-  <summary>Heap</summary>
-
-1. [kth Largest element](./other/heap/kth-largest.md)
-2. [Return K largest elements](./other/heap/kth-largest-elements-list.md)
-3. [K Most frequenct elements](./other/heap/kth-frequence.md)
-4. [Closest Points to origin](./other/heap/closest-to-origin.md)
-5. [Frequency Sort](.other/heap/frequency-sort.md)
-
-**To do**
-1. [K closest elements]()
-
 </details>
 
 <details>
