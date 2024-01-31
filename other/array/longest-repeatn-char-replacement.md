@@ -17,7 +17,9 @@ s = 'ABABBA'
 - `replaceable_char` must be `<=` *k*
     - True: update 'result'
     - False: slide the window 1 char forward, `l += 1`, `r += 1`
-
+- `replaceable_char` must be `<=` *k*
+    - why? if replaceable chars are k in number, replace them & whole subarray you have consist of same chars, else they when replaced they will contain other chars too.
+    
 **Efficiency**:
 - Time: `O(26 * N)`, Where `26` time required to fetch the freq of each char from the dict at each iteration
 - Space: `O(1)`, Where N is
