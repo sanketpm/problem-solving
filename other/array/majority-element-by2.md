@@ -104,3 +104,42 @@ public class Solution {
 	}
 }
 ```
+
+## Python
+
+### HashMap Approach
+```
+def findMajorityElement(arr, n):
+	count = Counter(arr)
+
+	for num in arr:
+		if count[num] > n//2:
+			return num
+	
+	return -1
+```
+
+### Moore's Voting Algorithm
+```
+def findMajorityElement(arr, n):
+	cnt, el = 0, 0
+
+	for num in arr:
+		if cnt == 0:
+			el = num
+			cnt = 1
+		elif num == el:
+			cnt += 1
+		elif num != el:
+			cnt -= 1
+	
+	cnt = 0
+	for num in arr:
+		if el == num:
+			cnt += 1
+		
+		if cnt > n//2:
+			return num
+
+	return -1
+```
