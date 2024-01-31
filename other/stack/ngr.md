@@ -3,6 +3,14 @@
 
 ## Expected Output
 
+```
+nums = [1, 3, 2, 4]
+
+nums = [ 6 8 0 1 3 ]
+
+```
+
+
 ### Optimized
 **Approach**
 
