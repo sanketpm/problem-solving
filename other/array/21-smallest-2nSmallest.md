@@ -1,3 +1,5 @@
+
+
 ## Expected Output
 Return smallest & 2nd smallest element from the array
 
@@ -9,24 +11,19 @@ Return smallest & 2nd smallest element from the array
 2. If element  is `not smaller than min1` but `smaller than min2` => replace min2
 
 ```
-class Result {
-    public static List<Integer> minAnd2ndMin(int n, List<Integer> arr) {
-        int min1 = Integer.MAX_VALUE;
-        int min2 = Integer.MAX_VALUE;
-        
-        int elem = 0;
-        for(int i = 0; i < n; i++) {
-            elem = arr.get(i);
-            
-            if( elem < min1 ) {
-                min1 = elem;
-            } else if ( elem > min1 && elem < min2) {
-                min2 = elem;
-            }
-        }
-        
-        return Arrays.asList(min1, min2);
-    }
-
-}
+def minAnd2ndMin( nums, n):
+    min1 = float('inf')
+    min2 = float('inf')
+    
+    for el in nums:
+        if el < min1:
+            min2 = min1
+            min1 = el
+        elif el < min2 and el != min1:
+            min2 = el
+    
+    if min2 == float('inf'):
+        return [-1]
+    
+    return [min1, min2]
 ```
