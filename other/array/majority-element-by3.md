@@ -9,6 +9,8 @@ List of elements that occur >n/3 times
 - [ 2, 1, 1, 3, 1, 4, 5, 6]
 - [ 1, 1, 1, 2, 3, 4, 5, 6]
 
+- [1, 1, 1, 2, 2, 2, 3, 4]
+
 **Observations**
 - Max two elements can occur >n/3 times in list of any size
 
