@@ -33,7 +33,6 @@ class Solution:
                 l += 1
 
             uniq.add(nums[r])
-
             sum += nums[r]
 
             if (r - l + 1) == k and len(uniq) == k:

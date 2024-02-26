@@ -7,8 +7,8 @@
 
 **Dry Run**
 ```
-s = 'AABABBA'
-s = 'ABABBA'
+s = 'AABABBA', k = 2
+s = 'ABABBA', k = 2
 ```
 
 **Approach**

@@ -1,5 +1,5 @@
 ## Links
-[Leetcode]()
+[Leetcode](https://leetcode.com/problems/next-permutation/description/)
 
 ## Expected Output
 
@@ -16,19 +16,6 @@ nums = [4 3 2 1]
 nums = [1 2 3 4]
 
 nums = [1 2 3 2 3]
-```
-
-### Brute Force
-
-**Approach**
-
-**Efficiency**:
-- Time: `O(N)`, Where N is .
-- Space: `O(N)`, Where N is
-
-**code**:
-```
-
 ```
 
 ### Optimized

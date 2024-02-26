@@ -61,3 +61,35 @@ class Solution
     }
 }
 ```
+
+## Python
+
+```
+def getLoopLength(head):
+    temp = head
+    cnt = 1
+    
+    while temp.next != head:
+        temp = temp.next
+        cnt += 1
+    
+    return cnt
+
+def hasCycle(head):
+    slow = fast = head
+    
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        
+        if slow == fast:
+            return getLoopLength(slow)
+    
+    return 0
+        
+def countNodesinLoop(head):
+    if not head or not head.next:
+        return 0
+    
+    return hasCycle(head)
+```

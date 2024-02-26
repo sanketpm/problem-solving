@@ -54,7 +54,6 @@ I have linked the solutions to the problems I've solved.
 2. Rotate Image
 3. Maximum Value in increasing - decreasing array
 4. Jump Game problem
-6. Count frequencies of array elements
 7. Matrix Rotation in place
 8. Celebrity Problem
 10. Quicksort implementation - Kth smallest
@@ -75,19 +74,19 @@ I have linked the solutions to the problems I've solved.
 
 
 - [ ] [Maximum sum of distinct subarrays with size k](./other/array/max-sum-distinct-subarray-size-k.md)
+- [ ] [First Negative Integer in every window of size k](./other/array/first-negative-in-subarray-size-k.md)
 
 </details>
 
 <details>
   <summary>Stack & Queue</summary>
 
-1. [NGL - Next Greatest Left](./other/stack/ngr.md)
-2. [NGR - Next Greatest Right]()
-3. [NSL - Next Smallest Left](./other/stack/nsl.md)
-4. [NSR - Next Smallest Right]()
-5. [Stock Span](./other/stack/stock-span.md)
-6. [Max area Histogram](./other/stack/max-area-histogram.md)
-7. [Min element in the stack]()
+- [ ] [NGR - Next Greatest Right](./other/stack/ngr.md)
+- [ ] [NSL - Next Smallest Left](./other/stack/nsl.md)
+- [ ] [Stock Span](./other/stack/stock-span.md)
+- [ ] [Max area Histogram](./other/stack/max-area-histogram.md)
+- [ ] [Min Stack Implementation]()
+- [ ] [Daily Temperatures](./other/stack/daily-temperatures.md)
 
 </details>
 
@@ -97,14 +96,11 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Heap</summary>
 
-1. [kth Largest element](./other/heap/kth-largest.md)
-2. [Return K largest elements](./other/heap/kth-largest-elements-list.md)
-3. [K Most frequenct elements](./other/heap/kth-frequence.md)
-4. [Closest Points to origin](./other/heap/closest-to-origin.md)
-5. [Frequency Sort](.other/heap/frequency-sort.md)
-
-**To do**
-1. [K closest elements]()
+- [ ] [kth Largest element](./other/heap/kth-largest.md)
+- [ ] [Return K largest elements](./other/heap/kth-largest-elements-list.md)
+- [ ] [K Most frequenct elements](./other/heap/kth-frequence.md)
+- [ ] [Closest Points to origin](./other/heap/closest-to-origin.md)
+- [ ] [Frequency Sort](.other/heap/frequency-sort.md)
 
 </details>
 
@@ -121,58 +117,66 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Bitwise</summary>
 
-1. [Count number of ones](./other/bitwise/01-one-bits.md)
-2. [Counting Bits](./other/bitwise/02-counting-bits.md)
-3. [Reverse Bits](./other/bitwise/03-reverse-bits.md)
+- [ ] [Count number of ones](./other/bitwise/01-one-bits.md)
+- [ ] [Counting Bits](./other/bitwise/02-counting-bits.md)
+- [ ] [Reverse Bits](./other/bitwise/03-reverse-bits.md)
 
-**TODO**
-1. Minimum number of platforms
 </details>
 
 <details>
   <summary>Linked List</summary>
 
-1. [Reverse a List](./other/list/01-reverse-list.md)
-2. [Check if the List has a cycle](./other/list/02-hasCycle.md)
-3. [Find the length of the Cycle](./other/list/03-Length-of-cycle.md)
-4. [Get the starting-node of the cycle](./other/list/04-starting-node.md)
-5. [Find the intersection node of two Lists](./other/list/05-intersection-node-two-lists.md)
-6. [Middle of a List](./other/list/06-middle-of-list.md)
-7. [Get Nth node from end of LinkedList](./other/list/07-end-of-list.md)
-8. [Remove Nth node from end of LinkedList](./other/list/08-remove-nth-node-from-end.md)
-9. [Merge Two sorted LinkedList](./other/list/09-merge-two-sorted-list.md)
-10. [Check Palindrome](./other/list/10-check-palindrome.md)
-11. [Add two linked lists](./other/list/11-add-two-lists.md)
-12. [Flattening a linked list](./other/list/12-flattening-a-list.md)
-13. [Reverse a linked list in k-groups](./other/list/13-reverse-nodes-in-k.md)
-14. [Rotate a LinkedList](./other/list/14-rotate-list-k.md)
-15. [Add two number](./other/list/15-add-two-numbers.md)
+- [ ] [Reverse a List](./other/list/01-reverse-list.md)
+
+- [ ] [Check if the List has a cycle](./other/list/02-hasCycle.md)
+- [ ] [Find the length of the Cycle](./other/list/03-Length-of-cycle.md)
+- [ ] [Get the starting-node of the cycle](./other/list/04-starting-node.md)
+
+- [ ] [Find the intersection node of two Lists](./other/list/05-intersection-node-two-lists.md)
+
+- [ ] [Middle of a List](./other/list/06-middle-of-list.md)
+- [ ] [Check Palindrome](./other/list/10-check-palindrome.md)
+
+- [ ] [Get Nth node from end of LinkedList](./other/list/07-end-of-list.md)
+- [ ] [Remove Nth node from end of LinkedList](./other/list/08-remove-nth-node-from-end.md)
+
+- [ ] [Merge Two sorted LinkedList](./other/list/09-merge-two-sorted-list.md)
+- [ ] [Merge K sorted LinkedList](./other/list/merge-k-sorted-lists.md)
+
+- [ ] [Add two linked lists](./other/list/11-add-two-lists.md)
+- [ ] [Add two number](./other/list/15-add-two-numbers.md)
+
+- [ ] [Flattening a linked list](./other/list/12-flattening-a-list.md)
+
+- [ ] [Reverse a linked list in k-groups](./other/list/13-reverse-nodes-in-k.md)
+- [ ] [Rotate a LinkedList](./other/list/14-rotate-list-k.md)
+
 </details>
 
 <details>
   <summary>Recursion & Backtracking</summary>
 
 > Note: Needs file restructuring
-1. [Subsets-I](./other/recur_backtrack/01-subset-I.md)
-2. [Subsets-II](./other/recur_backtrack/02-subset-II.md)
-3. [Permutation-I](./other/recur_backtrack/03-permutation-I.md)
-4. [Permutation-II](./other/recur_backtrack/04-permutation-II.md)
-5. [Combination-sum-I](./other/recur_backtrack/05-combination-i.md)
-6. [Combination-sum-II](./other/recur_backtrack/06-combination-ii.md)
-7. [N Queens - I](./other/recur_backtrack/02-n-queens-I.md)
-8. [Word Search](./other/recur_backtrack/01-word-search.md)
+- [ ] [Subsets-I](./other/recur_backtrack/01-subset-I.md)
+- [ ] [Subsets-II](./other/recur_backtrack/02-subset-II.md)
+- [ ] [Permutation-I](./other/recur_backtrack/03-permutation-I.md)
+- [ ] [Permutation-II](./other/recur_backtrack/04-permutation-II.md)
+- [ ] [Combination-sum-I](./other/recur_backtrack/05-combination-i.md)
+- [ ] [Combination-sum-II](./other/recur_backtrack/06-combination-ii.md)
+- [ ] [N Queens - I](./other/recur_backtrack/02-n-queens-I.md)
+- [ ] [Word Search](./other/recur_backtrack/01-word-search.md)
+- [ ] [Generate Correct Parenthesis](./other/recur_backtrack/generate-parenthesis.md)
 
 **TODO:**
-1. [Combination-sum-iii]()
-4. [Generate Correct Parenthesis]()
-5. [Kth Permutation Sequence]()
-7. [N Queens - II]()
-8. [Rat Maze Problem]()
-9. [Knight Walk Problem]()
-10. [Pow(x, n)]()
-11. [Sudoku Solver]()
-12. [Letter Combinations of a Phone number]()
-13. [M Coloring Problem]()
+- [ ] [Combination-sum-iii]()
+- [ ] [Kth Permutation Sequence]()
+- [ ] [N Queens - II]()
+- [ ] [Rat Maze Problem]()
+- [ ] [Knight Walk Problem]()
+- [ ] [Pow(x, n)]()
+- [ ] [Sudoku Solver]()
+- [ ] [Letter Combinations of a Phone number]()
+- [ ] [M Coloring Problem]()
 </details>
 
 <details>
@@ -180,65 +184,64 @@ I have linked the solutions to the problems I've solved.
 
 [Leetcode Tree Constructor](./other/tree/tree-constructor.md)
 
-1. [InOrder Traversal- Recursive & Iterative](./other/tree/01-in-order.md)
-2. [Preorder Traversal - Recursive & Iterative](./other/tree/02-pre-order.md)
-3. [Postorder Traversal - Recursive & Iterative](./other/tree/03-post-order.md)
-4. [kth smallest in BST](./other/tree/04-kth-smallest.md)
-5. [Sum root to leaf](./other/tree/05-sum-root-to-leaf.md)
-6. [Boundary nodes](./other/tree/06-boundary-nodes.md)
-7. [Depth of a BT](./other/tree/07-depth-of-bt.md)
-8. [Sum of all nodes](./other/tree/08-sum-of-all-nodes.md)
-9. [Level order traversal](./other/tree/09-level-order-traversal.md);
-10. [ZigZag order traversal](./other/tree/10-zigzag-order-traversal.md)
-11. [Odd even level difference](./other/tree/11-odd-even-level-diff.md)
-12. [Count the number of leaf nodes](./other/tree/12-no-of-leaf-nodes.md)
-13. [Diameter of a Btree](./other/tree/13-diameter-of-btree.md)
-14. [Is the BTree Balanced](./other/tree/14-balanced-tree.md)
-15. [Left View](./other/tree/15-left-view.md)
-16. [Right View](./other/tree/16-right-view.md)
-17. [Vertical Order Traversal](./other/tree/17-vertical-order-traversal.md)
-18. [Top View](./other/tree/18-top-view.md)
-19. [Bottom View](./other/tree/19-bottom-view.md)
-20. [Path to Node](./other/tree/20-path-to-node.md)
-21. [Max Path sum](./other/tree/21-max-path-sum.md)
-22. [Construct a binary tree from preorder](./other/tree/22-construct-tree-preorder.md)
-23. [Construct a binary tree from inorder and preorder](./other/tree/23-construct-tree-inorder-preorder.md)
-24. [Same Tree](./other/tree/same-tree.md)
-25. [Is the BTree Symmetric](./other/tree/25-is-tree-symmetric.md)
-26. [Least common ancestor - Binary Tree](./other/tree/26-lca.md)
-27. [Least common ancestor - Binary Search Tree](./other/tree/27-lca-bst.md)
-28. [Maximum width of a Binary Tree](./other/tree/27-max-width-of-btree.md)
-29. [Serialize and Deserialize a Btree](./other/tree/28-serialize-deserialize-btree.md)
-30. [Is sub-tree](./other/tree/29-is-subtree.md)
-31. [Good Nodes](./other/tree/good-node.md)
-32. [Invert a BTree](./other/tree/invert-btree.md)
-33. [Merge two BTree](./other/tree/merge-two-btree.md)
-34. [Sorted Array to Balanced BTree](./other/tree/sorted-balancedBtree.md)
-35. [Triangle min path sum](./other/tree/triangle.md)
-36. [Valid BTree](./other/tree/valid-btree.md)
-37. [House Robber III](./other/tree/house-robber-iii.md)
-38. [Bottom Left Tree Value](./other/tree/bottom-left.md)
-39. [Trim BST](./other/tree/trim-bst.md)
-40. [Has Path Sum](./other/tree/has-path-sum.md)
-41. [BST Iterator](./other/tree/bst-iterator.md)
-42. [Populating Next Right Pointers](./other/tree/next-right-ptr.md)
+- [ ] [InOrder Traversal- Recursive & Iterative](./other/tree/01-in-order.md)
+- [ ] [Preorder Traversal - Recursive & Iterative](./other/tree/02-pre-order.md)
+- [ ] [Postorder Traversal - Recursive & Iterative](./other/tree/03-post-order.md)
+- [ ] [kth smallest in BST](./other/tree/04-kth-smallest.md)
+- [ ] [Sum root to leaf](./other/tree/05-sum-root-to-leaf.md)
+- [ ] [Boundary nodes](./other/tree/06-boundary-nodes.md)
+- [ ] [Depth of a BT](./other/tree/07-depth-of-bt.md)
+- [ ] [Sum of all nodes](./other/tree/08-sum-of-all-nodes.md)
+- [ ] [Level order traversal](./other/tree/09-level-order-traversal.md);
+- [ ] [ZigZag order traversal](./other/tree/10-zigzag-order-traversal.md)
+- [ ] [Odd even level difference](./other/tree/11-odd-even-level-diff.md)
+- [ ] [Count the number of leaf nodes](./other/tree/12-no-of-leaf-nodes.md)
+- [ ] [Diameter of a Btree](./other/tree/13-diameter-of-btree.md)
+- [ ] [Is the BTree Balanced](./other/tree/14-balanced-tree.md)
+- [ ] [Left View](./other/tree/15-left-view.md)
+- [ ] [Right View](./other/tree/16-right-view.md)
+- [ ] [Vertical Order Traversal](./other/tree/17-vertical-order-traversal.md)
+- [ ] [Top View](./other/tree/18-top-view.md)
+- [ ] [Bottom View](./other/tree/19-bottom-view.md)
+- [ ] [Path to Node](./other/tree/20-path-to-node.md)
+- [ ] [Max Path sum](./other/tree/21-max-path-sum.md)
+- [ ] [Construct a binary tree from preorder](./other/tree/22-construct-tree-preorder.md)
+- [ ] [Construct a binary tree from inorder and preorder](./other/tree/23-construct-tree-inorder-preorder.md)
+- [ ] [Same Tree](./other/tree/same-tree.md)
+- [ ] [Is the BTree Symmetric](./other/tree/25-is-tree-symmetric.md)
+- [ ] [Least common ancestor - Binary Tree](./other/tree/26-lca.md)
+- [ ] [Least common ancestor - Binary Search Tree](./other/tree/27-lca-bst.md)
+- [ ] [Maximum width of a Binary Tree](./other/tree/27-max-width-of-btree.md)
+- [ ] [Serialize and Deserialize a Btree](./other/tree/28-serialize-deserialize-btree.md)
+- [ ] [Is sub-tree](./other/tree/29-is-subtree.md)
+- [ ] [Good Nodes](./other/tree/good-node.md)
+- [ ] [Invert a BTree](./other/tree/invert-btree.md)
+- [ ] [Merge two BTree](./other/tree/merge-two-btree.md)
+- [ ] [Sorted Array to Balanced BTree](./other/tree/sorted-balancedBtree.md)
+- [ ] [Triangle min path sum](./other/tree/triangle.md)
+- [ ] [Valid BTree](./other/tree/valid-btree.md)
+- [ ] [House Robber III](./other/tree/house-robber-iii.md)
+- [ ] [Bottom Left Tree Value](./other/tree/bottom-left.md)
+- [ ] [Trim BST](./other/tree/trim-bst.md)
+- [ ] [Has Path Sum](./other/tree/has-path-sum.md)
+- [ ] [BST Iterator](./other/tree/bst-iterator.md)
+- [ ] [Populating Next Right Pointers](./other/tree/next-right-ptr.md)
 
 ## To Do:
 1. add examples to `Balanced Btree` - why every node should be balanced
 2. Good Node example, which node is good node & how is it a good node
-3. 
 
 **TODO:**
-29. [Siblings & Cousins]
-30. [Burn a tree]
+- [ ] [Siblings & Cousins]
+- [ ] [Burn a tree]
 
 </details>
 
 <details>
   <summary>Trie</summary>
 
-1. [Build a Trie](./other/trie/implement-trie.md)
-2. [Design Add & Search Words](./other/trie/add-search-words.md)
+- [ ] [Build a Trie](./other/trie/implement-trie.md)
+- [ ] [Design Add & Search Words](./other/trie/add-search-words.md)
 
 </details>
 
@@ -246,76 +249,76 @@ I have linked the solutions to the problems I've solved.
   <summary>Dynamic Programming</summary>
 
 **Patterns**
-1. [0/1 Knapsack](./other/dp/generic-algorithm.md)
-2. [Unbounded Knapsack](./other/dp/generic-algorithm.md)
-3. [Min Max Subsequences](./other/dp/generic-algorithm.md)
-4. [Partition DP](./other/dp/generic-algorithm.md)
+- [ ] [0/1 Knapsack](./other/dp/generic-algorithm.md)
+- [ ] [Unbounded Knapsack](./other/dp/generic-algorithm.md)
+- [ ] [Min Max Subsequences](./other/dp/generic-algorithm.md)
+- [ ] [Partition DP](./other/dp/generic-algorithm.md)
 
 **Mix DP**
-1. [Climbing Stairs](./other/dp/I-01-climbing-stairs.md)
-2. [House Robber](./other/dp/I-02-house-robber.md)
-3. [House Robber II](./other/dp/I-02-house-robber-ii.md)
-3. [Unique Paths](./other/dp/I-03-unique-paths.md)
-4. [Decode Ways](./other/dp/I-04-decode-ways.md)
-5. [Word Break](./other/dp/I-05-work-break.md)
-6. [Min cost climbing stairs](./other/dp/min-cost-climbstairs.md)
-7. [Buy and Sell Stock I](./other/array/stock-buy-sell.md)
-8. [Buy and Sell Stock II](./other/array/stock-buy-sell-ii.md)
-9. [Buy and Sell Stock III](./other/array/stock-buy-sell-iii.md)
-10. [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
-11. [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
-12. [Jump Game - II](./other/greedy/jump-game-ii.md)
-13. [Jump Game - III](./other/greedy/jump-game-iii.md)
-14. [Unique BST](./other/dp/unique-bst.md)
-15. [Perfect Squares](./other/dp/perfect-squares.md)
-16. [Regular Expression Matching](./other/dp/regex-matching.md)
-17. [Pascal's Triangle](./other/dp/pascals-triangle.md)
-18. [All Possible Full Binary Tree](./other/dp/all-possible-fbt.md)
-19. [Stone Game I](./other/dp/stone-game-i.md)
-20. [Integer Break](./other/dp/integer-break.md)
+- [ ] [Climbing Stairs](./other/dp/I-01-climbing-stairs.md)
+- [ ] [House Robber](./other/dp/I-02-house-robber.md)
+- [ ] [House Robber II](./other/dp/I-02-house-robber-ii.md)
+- [ ] [Unique Paths](./other/dp/I-03-unique-paths.md)
+- [ ] [Decode Ways](./other/dp/I-04-decode-ways.md)
+- [ ] [Word Break](./other/dp/I-05-work-break.md)
+- [ ] [Min cost climbing stairs](./other/dp/min-cost-climbstairs.md)
+- [ ] [Buy and Sell Stock I](./other/array/stock-buy-sell.md)
+- [ ] [Buy and Sell Stock II](./other/array/stock-buy-sell-ii.md)
+- [ ] [Buy and Sell Stock III](./other/array/stock-buy-sell-iii.md)
+- [ ] [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
+- [ ] [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
+- [ ] [Jump Game - II](./other/greedy/jump-game-ii.md)
+- [ ] [Jump Game - III](./other/greedy/jump-game-iii.md)
+- [ ] [Unique BST](./other/dp/unique-bst.md)
+- [ ] [Perfect Squares](./other/dp/perfect-squares.md)
+- [ ] [Regular Expression Matching](./other/dp/regex-matching.md)
+- [ ] [Pascal's Triangle](./other/dp/pascals-triangle.md)
+- [ ] [All Possible Full Binary Tree](./other/dp/all-possible-fbt.md)
+- [ ] [Stone Game I](./other/dp/stone-game-i.md)
+- [ ] [Integer Break](./other/dp/integer-break.md)
 
 **I. 2-DP:**:
-1. [Interleaving String](./other/dp/I-2dp-interleaving-string.md)
-2. [Longest Increasing Path in matrix](./other/dp/I-2dp-lip-matrix.md)
-3. [Distinct Subsequence](./other/dp/I-2dp-distinct-subseq.md)
-4. [Unique Paths II](./other/dp/I-2dp-unique-path-2.md)
-5. [Minimum Path Sum](./other/dp/II-2dp-min-path-sum.md)
-6. [Maximal Squared](./other/dp/maximal-square.md)
-7. [Paint Houses - I](./other/dp/paint-houses-i.md)
+- [ ] [Interleaving String](./other/dp/I-2dp-interleaving-string.md)
+- [ ] [Longest Increasing Path in matrix](./other/dp/I-2dp-lip-matrix.md)
+- [ ] [Distinct Subsequence](./other/dp/I-2dp-distinct-subseq.md)
+- [ ] [Unique Paths II](./other/dp/I-2dp-unique-path-2.md)
+- [ ] [Minimum Path Sum](./other/dp/II-2dp-min-path-sum.md)
+- [ ] [Maximal Squared](./other/dp/maximal-square.md)
+- [ ] [Paint Houses - I](./other/dp/paint-houses-i.md)
 
 **II. 0/1 Knapsack**
-1. [Knapsack problem](./other/dp/I-01-knapsack.md)
-2. [Subset sum problem](./other/dp/I-02-subset-sum.md)
-3. [Count of subset problem - Perfect Sum](./other/dp/I-03-count-of-subset.md)
-4. [Equal Partition problem](./other/dp/I-04-equal-partition.md)
-5. [Minimum subset sum difference](./other/dp/I-05-minimum-subset-sum-diff.md)
-6. [No. of subset with given difference](./other/dp/I-06-#-subset-diff.md)
-7. [Target sum](./other/dp/I-07-target-sum.md)
+- [ ] [Knapsack problem](./other/dp/I-01-knapsack.md)
+- [ ] [Subset sum problem](./other/dp/I-02-subset-sum.md)
+- [ ] [Count of subset problem - Perfect Sum](./other/dp/I-03-count-of-subset.md)
+- [ ] [Equal Partition problem](./other/dp/I-04-equal-partition.md)
+- [ ] [Minimum subset sum difference](./other/dp/I-05-minimum-subset-sum-diff.md)
+- [ ] [No. of subset with given difference](./other/dp/I-06-#-subset-diff.md)
+- [ ] [Target sum](./other/dp/I-07-target-sum.md)
 
 **III. Unbounded Knapsack**
-1. [Rod cutting problem](./other/dp/II-1-rod-cutting.md)
-2. [Coin Change 1 - Maximum number of ways](./other/dp/II-2-coin-change-1.md)
-3. [Coin Change 2 - Minimum number of coins](./other/dp/II-3-coin-change-min-coins.md)
-4. [Combination IV](./other/dp/combination-sum-iv.md)
+- [ ] [Rod cutting problem](./other/dp/II-1-rod-cutting.md)
+- [ ] [Coin Change 1 - Maximum number of ways](./other/dp/II-2-coin-change-1.md)
+- [ ] [Coin Change 2 - Minimum number of coins](./other/dp/II-3-coin-change-min-coins.md)
+- [ ] [Combination IV](./other/dp/combination-sum-iv.md)
 
 **IV. Subsequence - Substring**
-1. [Length - Longest Common Subsequence](./other/dp/III-01-lcs.md)
-2. [Length - Longest common substring](./other/dp/III-02-lc-substring.md)
-3. [Print - Longest Common Subsequence](./other/dp/III-03-print-lcs.md)
-4. [Length - Shortest Common Supersequence](./other/dp/III-04-length-scs.md)
-5. [Print - Shortest Common Supersequence](./other/dp/III-05-print-scs.md)
-6. [Minimum number insertion or deletion](./other/dp/III-06-min-insertion-deletion.md)
-7. [Edit Distance](./other/dp/III-edit-distance.md)
-8. [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
-9. [Minimum number of deletions to make a palindrome](./other/dp/III-08-min-deletion-palindrome.md)
-10. [Longest repeating subsequence](./other/dp/III-09-longest-repeating-subseq.md)
-11. [Longest increasing subsequence](./other/dp/III-10-longest-increasing-subsequence.md)
-12. [Maximum Alternating Subsequence Sum](./other/dp/max-alt-subseq-sum.md)
+- [ ] [Length - Longest Common Subsequence](./other/dp/III-01-lcs.md)
+- [ ] [Length - Longest common substring](./other/dp/III-02-lc-substring.md)
+- [ ] [Print - Longest Common Subsequence](./other/dp/III-03-print-lcs.md)
+- [ ] [Length - Shortest Common Supersequence](./other/dp/III-04-length-scs.md)
+- [ ] [Print - Shortest Common Supersequence](./other/dp/III-05-print-scs.md)
+- [ ] [Minimum number insertion or deletion](./other/dp/III-06-min-insertion-deletion.md)
+- [ ] [Edit Distance](./other/dp/III-edit-distance.md)
+- [ ] [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
+- [ ] [Minimum number of deletions to make a palindrome](./other/dp/III-08-min-deletion-palindrome.md)
+- [ ] [Longest repeating subsequence](./other/dp/III-09-longest-repeating-subseq.md)
+- [ ] [Longest increasing subsequence](./other/dp/III-10-longest-increasing-subsequence.md)
+- [ ] [Maximum Alternating Subsequence Sum](./other/dp/max-alt-subseq-sum.md)
 
 **V Partition DP**
-1. [Matrix Chain Multiplication](./other/dp/IV-01-mcm.md)
-2. [Palindrome Partitioning](./other/dp/IV-02-palindrome-partitioning.md)
-3. [Print longest Palindromic substring](./other/dp/IV-03-longest-palindromic-substring.md) 
+- [ ] [Matrix Chain Multiplication](./other/dp/IV-01-mcm.md)
+- [ ] [Palindrome Partitioning](./other/dp/IV-02-palindrome-partitioning.md)
+- [ ] [Print longest Palindromic substring](./other/dp/IV-03-longest-palindromic-substring.md) 
 
 </details>
 
@@ -347,9 +350,9 @@ I have linked the solutions to the problems I've solved.
 | No | Questions | Way |
 |----|-----------|-----|
 | 1. | [Shortest Path - Non-Weighted + Undirected Graph](./other/graph/15-shortestPath-udg.md) | BFS + parent[] | 
-| 2. | [Shortest Path - Weighted + Directed Graph](./other/graph/16-shortestPath-dag.md)   | Topological Stack + parent[] |
-| 3. | [Shortest Path - Weighted Graph( UDG)](./other/graph/17-dijkstra-dag.md) | Djikstra Algorithm |
-| 4. | [Shortest Path - In Binary Maze](./other/graph/18-binary-maze.md) | Djikstra Algorithm |
+| 2. | [Shortest Path - Weighted + Directed Graph](./other/graph/16-shortestPath-dag.md)       | Topological Stack + parent[] |
+| 3. | [Shortest Path - Weighted Graph( UDG)](./other/graph/17-dijkstra-dag.md)                | Djikstra Algorithm |
+| 4. | [Shortest Path - In Binary Maze](./other/graph/18-binary-maze.md)                       | Djikstra Algorithm |
 
 
 **TODO:**
@@ -359,7 +362,6 @@ I have linked the solutions to the problems I've solved.
 - Problems
 1. [Cheapest Flight in K stops]()
 2. [Getting minimum distance to reach stop]()
-3.  
 4. Minimum Spanning Tree - Prims Algorithm
 5. Kruskal Algorithm
 6. No of operations to make Network connected
@@ -371,9 +373,11 @@ I have linked the solutions to the problems I've solved.
 </details>
 
 <details>
-  <summary>Miscellaneous</summary>
+  <summary>Design</summary>
 
-1. [LRU Cache](./other/miscellaneous/lru-cache.md)
+- [ ] [LRU Cache](./other/miscellaneous/lru-cache.md)
+- [ ] [Min Stack](./other/miscellaneous/min-stack.md)
+- [ ] [Kth Largest in the Stream](./other/miscellaneous/kth-largest-in-stream.md)
 
 </details>
 

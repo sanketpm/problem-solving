@@ -111,3 +111,64 @@ class Solution {
 }
 
 ```
+
+
+## Python
+
+### Brute Force
+```
+class Solution:
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        if not head or not head.next:
+            return head
+
+        cur, tail = head, head
+
+        while tail:
+            kNodes = []
+
+            while tail and len(kNodes) < k:
+                kNodes.append(tail.val)
+                tail = tail.next
+                
+            if not tail and len(kNodes) < k:
+                break
+
+            while kNodes:
+                cur.val = kNodes.pop()
+                cur = cur.next
+        
+        return head
+```
+
+### Optimized
+```
+class Solution:
+    def lengthOfList(self, head: Optional[ListNode]) -> int:
+        cur, count = head, 0
+        while cur:
+            count += 1
+            cur = cur.next
+        return count
+
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        dummy = ListNode(0, head)
+        pre = dummy 
+
+        # k = 4, list_length = 10, `no of times list is reversed = 2`, 10//4 = 2, the remaining two nodes are left as it is.
+        reverse_times = self.lengthOfList(head) // k
+
+        for i in range(reverse_times):
+            cur, nex = pre.next, pre.next.next
+
+            # k nodes to revese => 3 links to reverse, hence `k - 1`, we reverse 3 links
+            for j in range(k - 1):
+                cur.next = nex.next
+                nex.next = pre.next
+                pre.next = nex
+                nex = cur.next
+            
+            pre = cur
+        
+        return dummy.next
+```

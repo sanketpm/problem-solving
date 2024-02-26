@@ -4,13 +4,26 @@
 ## Expected Output
 List of All subsets
 
+## Dry Run:
+```
+1.
+nums = [1, 1, 1, 1]
+op = [[], [1], [1, 1], [1, 1, 1], [1, 1, 1, 1]]
+
+2.
+nums = [1, 2, 2]
+op = [[], [1], [2], [1, 2], [2, 2], [1, 2, 2]]
+
+```
+
 ## Approach
+**Core Logic:**
+The loop & recurion relation with `start` & `i` can be better understood with `dry-run` example 1
 
 ## Questions
 1. Why is sorting necessary?
    - Yes, w.r.t to logic we've written it is necessary to sort the array cuz the sorted array property that two same numbers are adjacent in an array we skip such values which are same as the previous value
 2. Why did you use `i > start && nums[i] == nums[i - 1]`, how does it help filter duplicates?
-3. 
 
 **Approach**
 ```

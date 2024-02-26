@@ -4,7 +4,11 @@
 ## Expected Output
 
 ### Brute Force
--  
+**Dry Run:** 
+```
+heights = [6, 2, 5, 4, 5, 2, 6]
+output: 12
+```
 
 ### Optimized
 **Approach**

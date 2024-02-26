@@ -40,3 +40,30 @@ class GfG {
     }
 }
 ```
+
+## Python
+
+```
+def lengthOfList(head):
+    curr = head
+    cnt = 0
+    
+    while curr:
+        cnt += 1
+        curr = curr.next
+    
+    return cnt
+    
+def getNthFromLast(head,n):
+    pos = lengthOfList(head) - n
+    curr = head
+    
+    while curr:
+        if pos == 0:
+            return curr.data
+        
+        pos -= 1
+        curr = curr.next
+    
+    return -1
+```

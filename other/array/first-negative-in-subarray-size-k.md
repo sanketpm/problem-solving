@@ -4,6 +4,10 @@
 ## Expected Output
 
 ### Optimized
+**Dry run**
+```
+A[] = [-8, 2, 3, -6, 10], K = 2
+```
 
 **Approach**
 - Sliding window
@@ -21,21 +25,16 @@ def printFirstNegativeInteger( A, N, K):
     res = []
     q = collections.deque()
     
-    while r < N:
+    for r in range(len(A)):
         if A[r] < 0:
             q.append(A[r])
         
         if (r - l + 1) == K:
-            if q:
-                res.append(q[0])
-                if A[l] == q[0]:
-                    q.popleft()
-            else:
-                res.append(0)
+            res.append(q[0] if q else 0)
 
+            if q and A[l] == q[0]:
+                q.popleft()
             l += 1
         
-        r += 1
-    
     return res
 ```
