@@ -50,15 +50,15 @@ I have linked the solutions to the problems I've solved.
 
 
 **TODO:**
-1. Transpose of matrix
-2. Rotate Image
-3. Maximum Value in increasing - decreasing array
-4. Jump Game problem
-7. Matrix Rotation in place
-8. Celebrity Problem
-10. Quicksort implementation - Kth smallest
-11. Median of two sorted array
-12. Maximum of all subarrays of size K 
+- [ ] Transpose of matrix
+- [ ] Rotate Image
+- [ ] Maximum Value in increasing - decreasing array
+- [ ] Jump Game problem
+- [ ] Matrix Rotation in place
+- [ ] Celebrity Problem
+- [ ] Quicksort implementation - Kth smallest
+- [ ] Median of two sorted array
+- [ ] Maximum of all subarrays of size K 
 
 
 **Sliding Window: Fixed**
@@ -89,9 +89,6 @@ I have linked the solutions to the problems I've solved.
 
 </details>
 
-
-
-
 <details>
   <summary>Heap</summary>
 
@@ -106,12 +103,12 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Greedy</summary>
 
-1. [Jump Game](./other/greedy/jump-game-i.md)
+- [ ] [Jump Game](./other/greedy/jump-game-i.md)
 
 **TODO**
-1. Minimum number of platforms
-</details>
+- [ ] Minimum number of platforms
 
+</details>
 
 <details>
   <summary>Bitwise</summary>
@@ -225,10 +222,6 @@ I have linked the solutions to the problems I've solved.
 - [ ] [Has Path Sum](./other/tree/has-path-sum.md)
 - [ ] [BST Iterator](./other/tree/bst-iterator.md)
 - [ ] [Populating Next Right Pointers](./other/tree/next-right-ptr.md)
-
-## To Do:
-1. add examples to `Balanced Btree` - why every node should be balanced
-2. Good Node example, which node is good node & how is it a good node
 
 **TODO:**
 - [ ] [Siblings & Cousins]
@@ -359,15 +352,15 @@ I have linked the solutions to the problems I've solved.
 1. Construct Graph from given edges
 
 - Problems
-1. [Cheapest Flight in K stops]()
-2. [Getting minimum distance to reach stop]()
-4. Minimum Spanning Tree - Prims Algorithm
-5. Kruskal Algorithm
-6. No of operations to make Network connected
-7. Bridges in Graph
-8. Atriculation Points in Graph
-9. KosaRaju's Algorithm
-10. Bellman Ford
+- [ ] [Cheapest Flight in K stops]()
+- [ ] [Getting minimum distance to reach stop]()
+- [ ] [Minimum Spanning Tree - Prims Algorithm]()
+- [ ] [Kruskal Algorithm]()
+- [ ] [No of operations to make Network connected]()
+- [ ] [Bridges in Graph]()
+- [ ] [Atriculation Points in Graph]()
+- [ ] [KosaRaju's Algorithm]()
+- [ ] [Bellman Ford]()
 
 </details>
 
