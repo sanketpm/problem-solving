@@ -85,7 +85,6 @@ I have linked the solutions to the problems I've solved.
 - [ ] [NSL - Next Smallest Left](./other/stack/nsl.md)
 - [ ] [Stock Span](./other/stack/stock-span.md)
 - [ ] [Max area Histogram](./other/stack/max-area-histogram.md)
-- [ ] [Min Stack Implementation]()
 - [ ] [Daily Temperatures](./other/stack/daily-temperatures.md)
 
 </details>
