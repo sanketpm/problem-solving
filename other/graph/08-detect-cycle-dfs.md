@@ -88,5 +88,5 @@ class Solution {
 
 
 Idea:
-- If a node has a neighbouring node that is visited & not the source of currentNode then it is a cycle.
+   - If a node has a neighbouring node that is visited & not the source of currentNode then it is a cycle.
 - You cannot have a visited node as a neighbour unless it is your source node

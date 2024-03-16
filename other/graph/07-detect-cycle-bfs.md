@@ -77,3 +77,35 @@ class Solution {
     }
 }
 ```
+
+## Python
+
+```
+import collections
+
+class Solution:
+	def isCycle(self, V: int, adj: List[List[int]]) -> bool:
+	    q = collections.deque()
+	    vis = set()
+	    
+        def bfs(ver):
+    	    q.append((ver, -1))
+    	    vis.add(ver)
+    	    
+    	    while q:
+    	        node, src = q.popleft()
+    	        
+    	        for nb in adj[node]:
+    	            if nb not in vis:
+    	                vis.add(nb)
+    	                q.append((nb, node))
+                    elif nb != src:
+                        return True
+            return False
+        
+        for v in range(V):
+            if v not in vis and bfs(v):
+                return True
+
+        return False
+```

@@ -18,6 +18,16 @@ Maximum profit by selecting best possible weights
 ## Tabulation - Bottom Up
 1. Model it after Memoization but bottom 
 
+**Dry Run**
+```
+wt = [1, 3, 4, 5]
+val = [1, 4, 5, 7]
+W = 7
+
+op: 
+
+```
+
 **Recursive**
 ```
 class Solution 
@@ -110,6 +120,74 @@ class Solution
         return dp[n][W];
     } 
 }
+```
+
+## Python
+
+**Brute Force**
+```
+class Solution:
+    def knapSack(self,W, wt, val, n):
+        def helper(n, W):
+            if W == 0 or n == 0:
+                return 0
+            
+            pick, dntPick = 0, 0
+            
+            if wt[n - 1] <= W:
+                pick = val[n - 1] + helper(n - 1, W - wt[n - 1])
+
+            dntPick = helper(n - 1, W)
+            
+            return max(pick, dntPick)
+        
+        return helper(n, W)
+```
+
+**Memorization**
+```
+class Solution:
+    def knapSack(self,W, wt, val, n):
+        dp = [ [-1] * (W + 1) for _ in range(n + 1)]
+        
+        def helper(n, W):
+            if W == 0 or n == 0:
+                return 0
+            
+            if dp[n][W] != -1:
+                return dp[n][W]
+            
+            pick, dntPick = 0, 0
+            
+            if wt[n - 1] <= W:
+                pick = val[n - 1] + helper(n - 1, W - wt[n - 1])
+
+            dntPick = helper(n - 1, W)
+            
+            dp[n][W] = max(pick, dntPick)
+            
+            return dp[n][W]
+
+        return helper(n, W)
+```
+
+**DP**
+
+```
+class Solution:
+    def knapSack(self,W, wt, val, n):
+        dp = [ [0] * (W + 1) for _ in range(n + 1)]
+        
+        for i in range(1, n + 1):
+            for j in range(1, W + 1):
+                pick, dntPick = 0, 0
+                if wt[i - 1] <= j:
+                    pick = val[i - 1] + dp[i - 1][j - wt[i - 1]]
+                
+                dntPick = dp[i - 1][j]
+                dp[i][j] = max(pick, dntPick)
+
+        return dp[n][W]
 ```
 
 **Learnings**

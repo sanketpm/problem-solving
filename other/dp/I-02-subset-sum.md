@@ -4,6 +4,15 @@
 ## Expected Output
 Return true/false: Whether any subset which produces the sum exist
 
+**Dry run**
+```
+arr = [2, 3, 7, 8, 10]
+sum = 11
+op: True
+
+
+```
+
 ## Recursive Approach
 - `take` & `dntTake` pattern of recursion
 
@@ -114,31 +123,31 @@ class Solution:
 **Memoization**:
 
 ```
-class Solution:
-    def subSetSum(self, N, arr, sum, dp):
-        if sum == 0:
-            return 1
-            
-        if N == 0 or sum < 0:
-            return 0
-        
-            
-        if dp[N][sum] != -1:
-            return dp[N][sum]
-        
-        take = self.subSetSum(N - 1, arr, sum - arr[N - 1], dp)
-        dntTake = self.subSetSum(N - 1, arr, sum, dp)
-        
-        dp[N][sum] = take | dntTake
-        
-        return dp[N][sum]
-    
     def isSubsetSum (self, N, arr, sum):
-        dp = [[-1] * (sum + 1) for _ in range(N + 1)]
+        dp = [ [-1] * (sum + 1) for _ in range(N + 1)]
+
+        def dfs(i, sum):
+            if sum == 0:
+                return True
+            
+            if i == N or sum < 0:
+                return False
+            
+            if dp[i][sum] != -1:
+                return dp[i][sum]
+            
+            pick, dntPick = 0, 0
+            
+            if arr[i] <= sum:
+                pick = dfs(i + 1, sum - arr[i])
+            
+            dntPick = dfs(i + 1, sum)
+
+            dp[i][sum] = pick | dntPick
+
+            return dp[i][sum]
         
-        self.subSetSum(N, arr, sum, dp)
-        
-        return dp[N][sum] == 1
+        return True if dfs(0, sum) == 1 else False
 ```
 
 **Tabulation**
@@ -196,3 +205,5 @@ Therefore, toggle them
 for i in range(N + 1):
     dp[i][0] = True
 ```
+
+

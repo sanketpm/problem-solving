@@ -51,6 +51,7 @@ class Solution {
         
         }
     }
+
 ```
 
 ### Python
@@ -76,5 +77,12 @@ class Solution:
 
 **Adjacency Matrix**
 ```
+def dfs(node, matrix, vis):
+    vis.add(node)
+
+    # are `nodes connected` and Is the `neighbour node` visted
+    for i in range(len(matrix[node])):
+        if matrix[node][i] == 1 and i not in vis:
+            dfs(i, matrix, vis)
 
 ```

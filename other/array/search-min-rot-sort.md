@@ -10,6 +10,13 @@ Array is rotated => Two Ascending order arrays `min` element is the `start` of 2
 ### Brute Force
 Linear Search for min element in your arrray
 
+**Dry Run:**
+```
+[3, 4, 5, 1, 2]
+
+[3, 1, 2]
+```
+
 ### Optimized
 **Approach**
 ```

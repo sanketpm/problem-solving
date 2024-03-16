@@ -4,8 +4,6 @@
 ## Expected Output
 Minimum number of partitions to the given string, where all partitioned strings are palindromes
 
- 
-
 ## Recursive Approach
 
 ## Memoization - Top Down

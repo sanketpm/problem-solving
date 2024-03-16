@@ -10,6 +10,13 @@ For every node (u, v), u appears in any traversal before v
 
 **dry run**
 ![image](../../images/topological-sort.png)
+![image](../../images/topological-sort-1.png)
+
+```
+Output:
+
+5 4 2 3 1 0
+```
 
 ## Approach
 1. DFS Traversal
@@ -21,8 +28,7 @@ For every node (u, v), u appears in any traversal before v
 ```
 class Solution
 {
-    static void toposort(int currNode, boolean[] visited, 
-                            LinkedList<Integer> stk, ArrayList<ArrayList<Integer>> adj ) {
+    static void toposort(int currNode, boolean[] visited, LinkedList<Integer> stk, ArrayList<ArrayList<Integer>> adj ) {
         visited[currNode] = true;
         
         for(int neighbour : adj.get(currNode)) {
@@ -54,3 +60,43 @@ class Solution
     }
 }
 ```
+
+## Python
+
+```
+import collections
+
+class Solution:
+    #Function to detect cycle in an undirected graph.
+	def isCycle(self, V: int, adj: List[List[int]]) -> bool:
+	    vis = set()
+	    q = collections.deque()
+	    
+	    def bfs(ver):
+    	    q.append([ver, -1])
+    	    vis.add(ver)
+    	    
+    	    while q:
+    	        node, src = q.popleft()
+    	        
+    	        for nb in adj[node]:
+    	            if nb not in vis:
+    	                q.append([nb, node])
+    	                vis.add(nb)
+    	            elif nb != src:
+    	                return True
+	   
+            return False
+        
+        
+        for v in range(V):
+            if v not in vis and bfs(v):
+                return True
+        
+        return False
+```
+
+## Debugging
+
+1. Failed to consider that input can be a disconnected graph (forgot the for-loop check for all vertices)
+2. 
