@@ -80,4 +80,6 @@ class Solution:
 
 **Questions**:
 1. Why in `buy` have ` - prices[i] ` & in `sell` we have ` + prices[i] `
+    - initial money = 0, profit & loss are based on this money (0), when you buy your money decreases, when you sell your money increases
+    - buy: 1, sell: 7 => money = 6
 2.  

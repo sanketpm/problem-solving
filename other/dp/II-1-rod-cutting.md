@@ -117,3 +117,67 @@ class Solution {
     }
 }
 ```
+
+
+## Python:
+
+**Brute Force:**
+```
+class Solution:
+    def cutRod(self, price, n):
+        def dfs(rod_len):
+            if rod_len == 0:
+                return 0
+                 
+            max_price = float('-inf')
+            
+            for cut_len in range(1, rod_len + 1):
+                cut_price = price[cut_len - 1] + dfs(rod_len - cut_len)
+                max_price = max(max_price, cut_price)
+            
+            return max_price
+        
+        return dfs(n)
+        
+```
+
+**Memoization:**
+```
+class Solution:
+    def cutRod(self, price, n):
+        dp = {}
+        def dfs(n):
+            if n == 0:
+                return 0
+            
+            if n in dp:
+                return dp[n]
+            
+            max_price = float('-inf')
+            
+            for i in range(1, n + 1):
+                cut_price = price[i - 1] + dfs(n - i)
+                max_price = max(max_price, cut_price)
+            
+            dp[n] = max_price
+            return dp[n]
+        
+        return dfs(n)
+```
+
+**DP:**
+```
+class Solution:
+    def cutRod(self, price, n):
+        dp = [0] * (n + 1)
+        
+        max_price = float('-inf')
+        
+        for rod_len in range(1, n + 1):
+            for cut_len in range(1, rod_len + 1):
+                cut_price = price[cut_len - 1] + dp[rod_len - cut_len]
+                max_price = max(max_price, cut_price)
+            dp[rod_len] = max_price
+        
+        return dp[n]
+```

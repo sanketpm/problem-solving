@@ -12,7 +12,7 @@ Maximum Profit
 2. You can conduct only `two` transactions.
 3. One Transaction = `buy` -> `sell`
 
-> This problem is an extension of `Buy & Sell Stock III`
+> This problem is an extension of `Buy & Sell Stock II`
 ## Recursive Approach
 
 ```

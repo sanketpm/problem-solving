@@ -2,6 +2,7 @@
 [leetcode](https://leetcode.com/problems/partition-equal-subset-sum)
 
 ## Describe the Problem
+```
 Given:
 nums = [1, 5, 11, 5]
 
@@ -21,7 +22,7 @@ The given array can be split/partioned into two subsets of equal sum
 e.g.:
 nums = [1, 5, 5]
 - There exist no two subsets for the input where thier sum is equal
-
+```
 
 **NOTE:**
 - This problem depends entirely on [Subset_Sum](./I-02-subset-sum.md) problem.

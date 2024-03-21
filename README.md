@@ -67,7 +67,7 @@ I have linked the solutions to the problems I've solved.
 - [ ] [Minimum Window Substring](./other/array/min-window-substring.md)
 - [ ] [Longest substring without repeating characters](./other/array/longest-substr-wo-repeat.md)
 - [ ] [Longest Repeating Character Replacement](./other/array/longest-repeatn-char-replacement.md)
-- [ ] [Group Anagrams](./other/array/group.anagrams.md)
+- [x] [Group Anagrams](./other/array/group.anagrams.md)
 
 - [ ] [Longest subarray with sum k](./other/map/longest-subarray-sum-k.md)
 - [ ] [Count of subarrays with sum k](./other/map/count-subarray-sum-k.md)
@@ -81,7 +81,7 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Stack & Queue</summary>
 
-- [ ] [NGR - Next Greatest Right](./other/stack/ngr.md)
+- [x] [NGR - Next Greatest Right](./other/stack/ngr.md)
 - [ ] [NSL - Next Smallest Left](./other/stack/nsl.md)
 - [ ] [Stock Span](./other/stack/stock-span.md)
 - [ ] [Max area Histogram](./other/stack/max-area-histogram.md)
@@ -153,15 +153,15 @@ I have linked the solutions to the problems I've solved.
   <summary>Recursion & Backtracking</summary>
 
 > Note: Needs file restructuring
-- [ ] [Subsets-I](./other/recur_backtrack/01-subset-I.md)
-- [ ] [Subsets-II](./other/recur_backtrack/02-subset-II.md)
-- [ ] [Permutation-I](./other/recur_backtrack/03-permutation-I.md)
-- [ ] [Permutation-II](./other/recur_backtrack/04-permutation-II.md)
-- [ ] [Combination-sum-I](./other/recur_backtrack/05-combination-i.md)
-- [ ] [Combination-sum-II](./other/recur_backtrack/06-combination-ii.md)
-- [ ] [N Queens - I](./other/recur_backtrack/02-n-queens-I.md)
-- [ ] [Word Search](./other/recur_backtrack/01-word-search.md)
-- [ ] [Generate Correct Parenthesis](./other/recur_backtrack/generate-parenthesis.md)
+- [x] [Subsets-I](./other/recur_backtrack/01-subset-I.md)
+- [x] [Subsets-II](./other/recur_backtrack/02-subset-II.md)
+- [x] [Permutation-I](./other/recur_backtrack/03-permutation-I.md)
+- [x] [Permutation-II](./other/recur_backtrack/04-permutation-II.md)
+- [x] [Combination-sum-I](./other/recur_backtrack/05-combination-i.md)
+- [x] [Combination-sum-II](./other/recur_backtrack/06-combination-ii.md)
+- [x] [N Queens - I](./other/recur_backtrack/02-n-queens-I.md)
+- [x] [Word Search](./other/recur_backtrack/01-word-search.md)
+- [x] [Generate Correct Parenthesis](./other/recur_backtrack/generate-parenthesis.md)
 
 **TODO:**
 - [ ] [Combination-sum-iii]()
@@ -171,7 +171,6 @@ I have linked the solutions to the problems I've solved.
 - [ ] [Knight Walk Problem]()
 - [ ] [Pow(x, n)]()
 - [ ] [Sudoku Solver]()
-- [ ] [Letter Combinations of a Phone number]()
 - [ ] [M Coloring Problem]()
 </details>
 
@@ -253,13 +252,13 @@ I have linked the solutions to the problems I've solved.
 - [x] [Min cost climbing stairs](./other/dp/min-cost-climbstairs.md)
 - [x] [Decode Ways](./other/dp/I-04-decode-ways.md)
 - [x] [Pascal's Triangle](./other/dp/pascals-triangle.md)
-- [ ] [Unique Paths](./other/dp/I-03-unique-paths.md)
+- [x] [Unique Paths](./other/dp/I-03-unique-paths.md)
 - [x] [Word Break](./other/dp/I-05-work-break.md)
-- [ ] [Buy and Sell Stock I](./other/array/stock-buy-sell.md)
-- [ ] [Buy and Sell Stock II](./other/array/stock-buy-sell-ii.md)
-- [ ] [Buy and Sell Stock III](./other/array/stock-buy-sell-iii.md)
-- [ ] [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
-- [ ] [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
+- [x] [Buy and Sell Stock I](./other/array/stock-buy-sell.md)
+- [x] [Buy and Sell Stock II](./other/array/stock-buy-sell-ii.md)
+- [x] [Buy and Sell Stock III](./other/array/stock-buy-sell-iii.md)
+- [x] [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
+- [x] [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
 - [ ] [Jump Game - II](./other/greedy/jump-game-ii.md)
 - [ ] [Jump Game - III](./other/greedy/jump-game-iii.md)
 - [ ] [Unique BST](./other/dp/unique-bst.md)
@@ -282,29 +281,34 @@ I have linked the solutions to the problems I've solved.
 - [x] [Knapsack problem](./other/dp/I-01-knapsack.md)
 - [x] [Subset sum problem](./other/dp/I-02-subset-sum.md)
 - [ ] [Count of subset problem - Perfect Sum](./other/dp/I-03-count-of-subset.md)
-- [ ] [Equal Partition problem](./other/dp/I-04-equal-partition.md)
+- [x] [Equal Partition problem](./other/dp/I-04-equal-partition.md)
 - [ ] [Minimum subset sum difference](./other/dp/I-05-minimum-subset-sum-diff.md)
 - [ ] [No. of subset with given difference](./other/dp/I-06-#-subset-diff.md)
 - [ ] [Target sum](./other/dp/I-07-target-sum.md)
 
 **III. Unbounded Knapsack**
-- [ ] [Rod cutting problem](./other/dp/II-1-rod-cutting.md)
-- [ ] [Coin Change 1 - Maximum number of ways](./other/dp/II-2-coin-change-1.md)
-- [ ] [Coin Change 2 - Minimum number of coins](./other/dp/II-3-coin-change-min-coins.md)
-- [ ] [Combination IV](./other/dp/combination-sum-iv.md)
+- [x] [Rod cutting problem](./other/dp/II-1-rod-cutting.md)
+- [x] [Coin Change 1 - min coins](./other/dp/II-2-coin-change-i.md)
+- [x] [Coin Change 2 - max ways](./other/dp/II-3-coin-change-ii.md)
+- [x] [Combination IV](./other/dp/combination-sum-iv.md)
 
 **IV. Subsequence - Substring**
-- [ ] [Length - Longest Common Subsequence](./other/dp/III-01-lcs.md)
+- [x] [Length - Longest Common Subsequence](./other/dp/III-01-lcs.md)
+- [x] [Print - Longest Common Subsequence](./other/dp/III-03-print-lcs.md)
+
 - [ ] [Length - Longest common substring](./other/dp/III-02-lc-substring.md)
-- [ ] [Print - Longest Common Subsequence](./other/dp/III-03-print-lcs.md)
+
 - [ ] [Length - Shortest Common Supersequence](./other/dp/III-04-length-scs.md)
 - [ ] [Print - Shortest Common Supersequence](./other/dp/III-05-print-scs.md)
+
 - [ ] [Minimum number insertion or deletion](./other/dp/III-06-min-insertion-deletion.md)
-- [ ] [Edit Distance](./other/dp/III-edit-distance.md)
-- [ ] [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
 - [ ] [Minimum number of deletions to make a palindrome](./other/dp/III-08-min-deletion-palindrome.md)
+
+- [ ] [Edit Distance](./other/dp/III-edit-distance.md)
+
+- [ ] [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
 - [ ] [Longest repeating subsequence](./other/dp/III-09-longest-repeating-subseq.md)
-- [ ] [Longest increasing subsequence](./other/dp/III-10-longest-increasing-subsequence.md)
+- [x] [Longest increasing subsequence](./other/dp/III-10-longest-increasing-subsequence.md)
 - [ ] [Maximum Alternating Subsequence Sum](./other/dp/max-alt-subseq-sum.md)
 
 **V Partition DP**
