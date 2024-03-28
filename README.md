@@ -115,15 +115,6 @@ I have linked the solutions to the problems I've solved.
 - [x] [Huffman Encoding](./other/greedy/huffman-encoding.md)
 - [x] [Min cost of ropes](./other/greedy/min-cost-ropes.md)
 - [x] [Chocolate distribution problem](./other/greedy/chocolate-distribution.md)
-- [ ] [](./other/greedy/.md)
-
-- [ ] [](./other/greedy/.md)
-- [ ] [](./other/greedy/.md)
-
-
-
-**TODO**
-- [ ] Minimum number of platforms
 
 </details>
 
@@ -248,7 +239,7 @@ t
 <details>
   <summary>Trie</summary>
 
-- [ ] [Build a Trie](./other/trie/implement-trie.md)
+- [x] [Build a Trie](./other/trie/implement-trie.md)
 - [ ] [Design Add & Search Words](./other/trie/add-search-words.md)
 
 </details>
@@ -277,7 +268,7 @@ t
 - [x] [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
 - [x] [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
 - [x] [Jump Game - II](./other/greedy/jump-game-ii.md)
-- [ ] [Jump Game - III](./other/greedy/jump-game-iii.md)
+- [x] [Jump Game - III](./other/greedy/jump-game-iii.md)
 - [ ] [Unique BST](./other/dp/unique-bst.md)
 - [ ] [Perfect Squares](./other/dp/perfect-squares.md)
 - [ ] [Regular Expression Matching](./other/dp/regex-matching.md)
@@ -323,14 +314,14 @@ t
 
 - [ ] [Edit Distance](./other/dp/III-edit-distance.md)
 
-- [ ] [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
+- [x] [Longest Palindromic subsequence](./other/dp/III-07-lps.md)
 - [ ] [Longest repeating subsequence](./other/dp/III-09-longest-repeating-subseq.md)
 - [x] [Longest increasing subsequence](./other/dp/III-10-longest-increasing-subsequence.md)
 - [ ] [Maximum Alternating Subsequence Sum](./other/dp/max-alt-subseq-sum.md)
 
 **V Partition DP**
 - [ ] [Matrix Chain Multiplication](./other/dp/IV-01-mcm.md)
-- [ ] [Palindrome Partitioning](./other/dp/IV-02-palindrome-partitioning.md)
+- [x] [Palindrome Partitioning](./other/dp/IV-02-palindrome-partitioning.md)
 - [ ] [Print longest Palindromic substring](./other/dp/IV-03-longest-palindromic-substring.md) 
 
 </details>
