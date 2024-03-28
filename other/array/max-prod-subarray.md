@@ -10,8 +10,21 @@ nums = [2, 3, -2, 4]
 op: 6
 
 nums = [-2, 3, 4, -1, 0, 2, 3, 1, 4, 0, 4, 6, -1, 4]
+op: 24
 
+why do you need prefix & suffix products, isn't only having prefix not enough?
+ex:
+nums = [2, 3, -2, 0, 4]
+    - max prefix prod = 6, 
+    - max suffix prod = 4
+    - res = 6
 
+nums = [4, 0, -1, 2, 3]
+    - max prefix prod = 4, 
+    - max suffix prod = 6
+    - res = 6
+
+with the second example you can we need suffix also, because input can have negative numbers.
 ```
 
 ### Brute Force I

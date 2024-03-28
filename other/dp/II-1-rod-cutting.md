@@ -170,14 +170,12 @@ class Solution:
 class Solution:
     def cutRod(self, price, n):
         dp = [0] * (n + 1)
-        
-        max_price = float('-inf')
-        
+    
         for rod_len in range(1, n + 1):
+            profit = 0
             for cut_len in range(1, rod_len + 1):
-                cut_price = price[cut_len - 1] + dp[rod_len - cut_len]
-                max_price = max(max_price, cut_price)
-            dp[rod_len] = max_price
+                profit = max(profit, price[cut_len - 1] + dp[rod_len - cut_len])
+            dp[rod_len] = profit
         
         return dp[n]
 ```

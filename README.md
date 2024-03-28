@@ -13,15 +13,15 @@ I have linked the solutions to the problems I've solved.
 
 - [ ] [Find the smallest and second smallest element in an array](./other/array/21-smallest-2nSmallest.md)
 - [ ] [First missing positive](./other/array/15-first-missing-positive.md)
-- [ ] [Sort 0s 1s 2s](./other/array/15-sort-0-1-2-array.md)
+- [x] [Sort 0s 1s 2s](./other/array/15-sort-0-1-2-array.md)
 
-- [ ] [Kadane algorithm](./other/array/kadane-algorithm.md)
-- [ ] [Majority element ( > n/2 times )](./other/array/majority-element-by2.md)
-- [ ] [Majority element ( > n/3 times ) ](./other/array/majority-element-by3.md)
+- [x] [Kadane algorithm](./other/array/kadane-algorithm.md)
+- [x] [Majority element ( > n/2 times )](./other/array/majority-element-by2.md)
+- [x] [Majority element ( > n/3 times ) ](./other/array/majority-element-by3.md)
 
-- [ ] [Two sum](./other/array/two-sum.md)
+- [x] [Two sum](./other/array/two-sum.md)
 - [ ] [Two sum ii](./other/array/two-sum-ii.md)
-- [ ] [Three sum](./other/array/three-sum.md)
+- [x] [Three sum](./other/array/three-sum.md)
 
 - [ ] [Rain water tapping](./other/array/rain-water-tapping.md)
 - [ ] [Product of array except self](./other/array/product-except-self.md)
@@ -103,7 +103,24 @@ I have linked the solutions to the problems I've solved.
 <details>
   <summary>Greedy</summary>
 
-- [ ] [Jump Game](./other/greedy/jump-game-i.md)
+- [x] [Jump Game](./other/greedy/jump-game-i.md)
+- [x] [Gas Station](./other/greedy/gas-station.md)
+
+- [x] [N Meetings in one room](./other/greedy/n-meetings.md)
+- [x] [Maximum Meetings in One Room (N meeting extended)](./other/greedy/max-meetings.md)
+- [x] [Maximum Platforms](./other/greedy/maximum-platforms.md)
+- [x] [Job Sequencing](./other/greedy/job-sequencing.md)
+
+- [x] [Fractional Knapsack](./other/greedy/fractional-knapsack.md)
+- [x] [Huffman Encoding](./other/greedy/huffman-encoding.md)
+- [x] [Min cost of ropes](./other/greedy/min-cost-ropes.md)
+- [x] [Chocolate distribution problem](./other/greedy/chocolate-distribution.md)
+- [ ] [](./other/greedy/.md)
+
+- [ ] [](./other/greedy/.md)
+- [ ] [](./other/greedy/.md)
+
+
 
 **TODO**
 - [ ] Minimum number of platforms
@@ -143,7 +160,7 @@ I have linked the solutions to the problems I've solved.
 - [ ] [Add two number](./other/list/15-add-two-numbers.md)
 
 - [ ] [Flattening a linked list](./other/list/12-flattening-a-list.md)
-
+t
 - [ ] [Reverse a linked list in k-groups](./other/list/13-reverse-nodes-in-k.md)
 - [ ] [Rotate a LinkedList](./other/list/14-rotate-list-k.md)
 
@@ -259,7 +276,7 @@ I have linked the solutions to the problems I've solved.
 - [x] [Buy and Sell Stock III](./other/array/stock-buy-sell-iii.md)
 - [x] [Buy and Sell Stock IV](./other/array/stock-buy-sell-iv.md)
 - [x] [Best time to buy/sell stock with cooldown](./other/dp/I-2dp-buy-sell-cooldown.md)
-- [ ] [Jump Game - II](./other/greedy/jump-game-ii.md)
+- [x] [Jump Game - II](./other/greedy/jump-game-ii.md)
 - [ ] [Jump Game - III](./other/greedy/jump-game-iii.md)
 - [ ] [Unique BST](./other/dp/unique-bst.md)
 - [ ] [Perfect Squares](./other/dp/perfect-squares.md)

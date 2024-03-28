@@ -4,6 +4,14 @@
 ## Expected Output
 Sorted Array
 
+**Dry run**:
+```
+[2,0,2,1,1,0]
+[2, 1, 0]
+
+edge case: [1, 2, 0]
+```
+
 ## Brute Force Approach
 1. Use Any sorting method
 

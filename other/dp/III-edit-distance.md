@@ -42,9 +42,6 @@ class Solution:
                 )
         
         return dfs(0, 0)
-
-
-
 ```
 
 ## Memoization - Top_Down
