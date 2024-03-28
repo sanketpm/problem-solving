@@ -53,7 +53,6 @@ I have linked the solutions to the problems I've solved.
 - [ ] Transpose of matrix
 - [ ] Rotate Image
 - [ ] Maximum Value in increasing - decreasing array
-- [ ] Jump Game problem
 - [ ] Matrix Rotation in place
 - [ ] Celebrity Problem
 - [ ] Quicksort implementation - Kth smallest
@@ -82,20 +81,20 @@ I have linked the solutions to the problems I've solved.
   <summary>Stack & Queue</summary>
 
 - [x] [NGR - Next Greatest Right](./other/stack/ngr.md)
-- [ ] [NSL - Next Smallest Left](./other/stack/nsl.md)
-- [ ] [Stock Span](./other/stack/stock-span.md)
-- [ ] [Max area Histogram](./other/stack/max-area-histogram.md)
-- [ ] [Daily Temperatures](./other/stack/daily-temperatures.md)
+- [x] [NSL - Next Smallest Left](./other/stack/nsl.md)
+- [x] [Stock Span](./other/stack/stock-span.md)
+- [x] [Max area Histogram](./other/stack/max-area-histogram.md)
+- [x] [Daily Temperatures](./other/stack/daily-temperatures.md)
 
 </details>
 
 <details>
   <summary>Heap</summary>
 
-- [ ] [kth Largest element](./other/heap/kth-largest.md)
-- [ ] [Return K largest elements](./other/heap/kth-largest-elements-list.md)
-- [ ] [K Most frequenct elements](./other/heap/kth-frequence.md)
-- [ ] [Closest Points to origin](./other/heap/closest-to-origin.md)
+- [x] [kth Largest element](./other/heap/kth-largest.md)
+- [x] [Return K largest elements](./other/heap/kth-largest-elements-list.md)
+- [x] [K Most frequenct elements](./other/heap/kth-frequence.md)
+- [x] [Closest Points to origin](./other/heap/closest-to-origin.md)
 - [ ] [Frequency Sort](.other/heap/frequency-sort.md)
 
 </details>
@@ -151,7 +150,7 @@ I have linked the solutions to the problems I've solved.
 - [ ] [Add two number](./other/list/15-add-two-numbers.md)
 
 - [ ] [Flattening a linked list](./other/list/12-flattening-a-list.md)
-t
+
 - [ ] [Reverse a linked list in k-groups](./other/list/13-reverse-nodes-in-k.md)
 - [ ] [Rotate a LinkedList](./other/list/14-rotate-list-k.md)
 
@@ -160,7 +159,6 @@ t
 <details>
   <summary>Recursion & Backtracking</summary>
 
-> Note: Needs file restructuring
 - [x] [Subsets-I](./other/recur_backtrack/01-subset-I.md)
 - [x] [Subsets-II](./other/recur_backtrack/02-subset-II.md)
 - [x] [Permutation-I](./other/recur_backtrack/03-permutation-I.md)
@@ -277,8 +275,8 @@ t
 - [ ] [Integer Break](./other/dp/integer-break.md)
 
 **I. 2-DP:**:
-- [ ] [Interleaving String](./other/dp/I-2dp-interleaving-string.md)
-- [ ] [Longest Increasing Path in matrix](./other/dp/I-2dp-lip-matrix.md)
+- [x] [Interleaving String](./other/dp/I-2dp-interleaving-string.md)
+- [x] [Longest Increasing Path in matrix](./other/dp/I-2dp-lip-matrix.md)
 - [ ] [Distinct Subsequence](./other/dp/I-2dp-distinct-subseq.md)
 - [ ] [Unique Paths II](./other/dp/I-2dp-unique-path-2.md)
 - [ ] [Minimum Path Sum](./other/dp/II-2dp-min-path-sum.md)
@@ -292,7 +290,7 @@ t
 - [x] [Equal Partition problem](./other/dp/I-04-equal-partition.md)
 - [ ] [Minimum subset sum difference](./other/dp/I-05-minimum-subset-sum-diff.md)
 - [ ] [No. of subset with given difference](./other/dp/I-06-#-subset-diff.md)
-- [ ] [Target sum](./other/dp/I-07-target-sum.md)
+- [x] [Target sum](./other/dp/I-07-target-sum.md)
 
 **III. Unbounded Knapsack**
 - [x] [Rod cutting problem](./other/dp/II-1-rod-cutting.md)
