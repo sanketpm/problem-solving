@@ -2,7 +2,6 @@
 [GFG](https://www.geeksforgeeks.org/problems/huffman-encoding3345/1)
 
 ## Expected Output
-
 ```
 Input:
     S = "abcdef"
