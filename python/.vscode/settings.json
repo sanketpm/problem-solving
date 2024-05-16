@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none",
+    "python.analysis.extraPaths": [
+        "./lld-design/parkingLot/models",
+        "./lld-design/parkingLot/constants"
+    ]
+}
