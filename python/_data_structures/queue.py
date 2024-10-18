@@ -20,4 +20,3 @@ print(q)
 # Looping till q becomes empty
 while q:
     print(q.popleft())
-
