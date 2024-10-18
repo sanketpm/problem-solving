@@ -13,8 +13,8 @@ an elegant solution.
 1 Hour - 2 Questions
 
 ## Links
-[online python interpreter](https://www.programiz.com/python-programming/online-compiler/) <br/>
-[drawing tool](https://excalidraw.com/)
+[Online Python Interpreter](https://www.programiz.com/python-programming/online-compiler/) <br/>
+[Drawing Tool](https://excalidraw.com/)
 
 ## Problems
 
