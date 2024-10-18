@@ -5,7 +5,7 @@ test the candidate's preparedness, ability to understand & explain the problem &
 an elegant solution.
 
 ## Format:
-1 hr - Two questions
+1 Hour - 2 Questions
 
 ## Links
 [online python interpreter](https://www.programiz.com/python-programming/online-compiler/) <br/>
