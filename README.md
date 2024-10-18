@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://storage.googleapis.com/smartqprdindia_pub/public_files/SmartQ%20Logo.png" alt="smartq-logo" />
+</p>
+
+
 Here lies a list of problems that can be asked for interviewing candidates.
 
 Infusing elegance into your code is an essential skill & DSA hones that the below questions
