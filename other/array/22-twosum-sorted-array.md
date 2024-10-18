@@ -1,3 +1,6 @@
+## Links
+[Leetcode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+
 ## Expected Output
 Index of two elements when added equals to target
 

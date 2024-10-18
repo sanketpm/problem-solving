@@ -1,5 +1,4 @@
 ## Links
-[GFG]()
 [coding_ninjas](https://www.codingninjas.com/codestudio/problems/1062626)
 
 ## Expected Output

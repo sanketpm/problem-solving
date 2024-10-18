@@ -1,4 +1,11 @@
-I have linked the solutions to the problems I've solved.
+Here lies a list of problems that can be asked for interviewing candidates.
+
+Infusing elegance into your code is an essential skill & DSA hones that the below questions
+test the candidate's preparedness, ability to understand & explain the problem & come up with
+an elegant solution.
+
+## Format:
+1 hr - Two questions
 
 ## Problems
 
@@ -6,8 +13,6 @@ I have linked the solutions to the problems I've solved.
   <summary>Array</summary>
 
 **Array**
-- [ ] [Remove duplicates from sorted array](./other/array/logicmojo/01-remove-duplicates.md)
-- [ ] [Search insert position](./other/array/02-search-insert-position.md)
 - [ ] [Fibonacci series](./other/array/03-fibinacci-series.md)
 - [ ] [Spiral matrix](./other/array/18-spiral-matrix.md)
 
@@ -24,7 +29,6 @@ I have linked the solutions to the problems I've solved.
 - [x] [Three sum](./other/array/three-sum.md)
 
 - [ ] [Rain water tapping](./other/array/rain-water-tapping.md)
-- [ ] [Product of array except self](./other/array/product-except-self.md)
 
 - [ ] [Search min in rotated sorted array](./other/array/search-min-rot-sort.md)
 - [ ] [Search in rotated sorted array](./other/array/search-rotated-sort-array.md)

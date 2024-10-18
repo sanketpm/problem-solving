@@ -1,3 +1,7 @@
+## Links
+> note: the below link asks to generate Nth fibonacci number, can be asked as an extension
+[Leetcode](https://leetcode.com/problems/fibonacci-number/)
+
 ## Expected Output
 Nth fibonacci number
 

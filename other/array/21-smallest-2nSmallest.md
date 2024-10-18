@@ -1,4 +1,5 @@
-
+## Links
+[GFG](https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
 
 ## Expected Output
 Return smallest & 2nd smallest element from the array
