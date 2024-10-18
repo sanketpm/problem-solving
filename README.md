@@ -7,6 +7,10 @@ an elegant solution.
 ## Format:
 1 hr - Two questions
 
+## Links
+[online python interpreter](https://www.programiz.com/python-programming/online-compiler/)
+[drawing tool](https://excalidraw.com/)
+
 ## Problems
 
 <details>
