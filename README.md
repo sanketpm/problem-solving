@@ -52,18 +52,6 @@ an elegant solution.
 - [ ] [Convert Roman to Integer](./other/array/roman-to-int.md)
 - [ ] [Convert Integer to Roman](./other/array/int-to-roman.md)
 
-
-**TODO:**
-- [ ] Transpose of matrix
-- [ ] Rotate Image
-- [ ] Maximum Value in increasing - decreasing array
-- [ ] Matrix Rotation in place
-- [ ] Celebrity Problem
-- [ ] Quicksort implementation - Kth smallest
-- [ ] Median of two sorted array
-- [ ] Maximum of all subarrays of size K 
-
-
 **Sliding Window: Fixed**
 
 **Sliding Window: Variable**
@@ -74,7 +62,6 @@ an elegant solution.
 
 - [ ] [Longest subarray with sum k](./other/map/longest-subarray-sum-k.md)
 - [ ] [Count of subarrays with sum k](./other/map/count-subarray-sum-k.md)
-
 
 - [ ] [Maximum sum of distinct subarrays with size k](./other/array/max-sum-distinct-subarray-size-k.md)
 - [ ] [First Negative Integer in every window of size k](./other/array/first-negative-in-subarray-size-k.md)
